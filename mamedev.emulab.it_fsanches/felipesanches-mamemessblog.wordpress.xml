@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.0" created="2014-10-04 04:12" -->
+<!-- generator="WordPress/4.0" created="2014-10-04 14:10" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Felipe Sanches - MAME/MESS blog</title>
 	<link>http://mamedev.emulab.it/fsanches</link>
 	<description>Emulation as a way of learning hardware design.</description>
-	<pubDate>Sat, 04 Oct 2014 04:12:21 +0000</pubDate>
+	<pubDate>Sat, 04 Oct 2014 14:10:03 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://mamedev.emulab.it/fsanches</wp:base_site_url>
@@ -39,6 +39,7 @@
 	<wp:author><wp:author_id>2</wp:author_id><wp:author_login>Felipe</wp:author_login><wp:author_email>juca@members.fsf.org</wp:author_email><wp:author_display_name><![CDATA[Felipe Sanches]]></wp:author_display_name><wp:author_first_name><![CDATA[Felipe]]></wp:author_first_name><wp:author_last_name><![CDATA[Sanches]]></wp:author_last_name></wp:author>
 
 	<wp:category><wp:term_id>1</wp:term_id><wp:category_nicename>uncategorized</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Uncategorized]]></wp:cat_name></wp:category>
+	<wp:category><wp:term_id>2</wp:term_id><wp:category_nicename>undumped</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[undumped]]></wp:cat_name></wp:category>
 
 	<generator>http://wordpress.org/?v=4.0</generator>
 
@@ -501,64 +502,6 @@ how to approach dumping &amp; emulation]]></content:encoded>
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>PenseBem / SmartStart</title>
-		<link>http://mamedev.emulab.it/fsanches/?p=37</link>
-		<pubDate>Sat, 04 Oct 2014 04:04:55 +0000</pubDate>
-		<dc:creator><![CDATA[Felipe]]></dc:creator>
-		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=37</guid>
-		<description></description>
-		<content:encoded><![CDATA[<blockquote>I am publishing this without images. Please visit this blogpost later if you wish to see some images &amp; photos. I'll publish it "raw" right now and I'll try to gradually embelish it later this week. :-)</blockquote>
-I've been in contact with the MESS project for a few years already, so it is a bit hard to decide which specific emulated device should I talk about first when starting this new blog. It seems to me that the best way to start would be perhaps by talking about the way I first got in contact with the project.
-
-Back in 2010 I was, for some reason I can't remember anymore, starting to get interested in emulation. It is probably related to the fact I had been hanging out with Ricardo Bittencourt (a.k.a. RicBit) at the university laboratory. RicBit is the author of a famous MSX emulator called BrMSX. It was fully implemented in x86 assembly language, which is quite impressive. The source code is listed <a href="https://github.com/ricbit/brmsx">here</a> (I wish it had a free software license attached to it... :-D).
-
-So, I started wondering whether it would be possible for me to be part of the emulation community by writting my own emulator. It was just not clear to me back then what was yet left to be emulated. (nowadays I know the answer is: "a whole lot of stuff !") I tried to map all of the video-game consoles I had been in contact with since childhood and it seemed to me that everything was already emulated, so it was a bit frustrating at first to think about it.
-
-But then I remembered this old children toy called <a href="http://www.pakequis.com.br/2010/01/por-dentro-do-pense-bem-da-tectoy.html">PenseBem</a> (which later I figured out was called SmartStart in the US). Here in Brazil it was manufactured by TecToy. By the way, the expression "pense bem", in portuguese means something like "think carefully".
-
-I checked out the MAME source code, started looking at it and learning how it works and wondered how could I adapt it to emulate the PenseBem toy. Then a friend told me about MESS and why it was better suited to my purpose, i.e. emulating something that is not an arcade game.
-
-About one year later, while spending a weekend at the local hackerspace (<a href="http://garoa.net.br/">Garoa Hacker Clube</a>, in São Paulo, Brazil), me and my friend Leandro Pereira decided to resume the project and we finaly disassembled a unit of this toy that had surface in the hackerspace pile of random electronics stuff.
-
-When we opened it we faced a very simple circuit. The most proeminent component was a Z8 microcontroller. I was used to Z80 assembly coding (because of the MSX computer I had when I was a child and also due to some optimization work of typography rendering we were doing at the lab at the university) so I was excited to take a look at the firmware disassembly of the toy. I was expecting that the Z8 code would probably look similar to the Z80 routines I was used to.
-
-Unfortunatelly, we couldn't figure out a way to dump the device. We did not find an exact datasheet for that part number, and while  looking at Zilog documentation for other similar Z8-based chips, we could not find a way to dump it. Apparently the internal memory containing the firmware is written at the factory and not meant to be neigther updated nor dumped. My guess is that there are not even data/address lines tied to pins in the chip DIP packaging.
-
-Since it seemed impossible to dump the firmware (without nitric acid :-P) it meant real emulation would not be possible. So we decided to at least simulate the device by reimplementing its functionality, based on our observations. There was some reverse engineering effort already done by Eduardo Habhost, who mapped the overall behaviour of the random number generator used by the toy to generate the list of correct answers to the questionaires that were employed in the toy.
-
-Based on <a href="https://github.com/lpereira/Pense-Bem/commit/0205359abb85e8b91398b7af021a4ea21a120b38">Eduardo's findings</a> we started working on a javascript implementation of the simulator. I was deeply involved in the Inkscape development team, so SVG was my natural choice for creating the graphical interface. The SVG file contained the artistic representation of the PenseBem/SmartStart console. It also had javascript event handlers attached to certain vector objects so that when you open the SVG file in a modern web-browser you can actually interact with it. Javascript is used to implement the actual behaviour. Visual feedback is provided by changing the color of the 14-segment display segments. We used the HTML5 audio element and API to programmatically generate the square wave tones.
-
-Here's the <a href="https://github.com/lpereira/Pense-Bem/commit/f9b10892876c846d0f9c6c2a5acf06dc9a53bdaf">first commit of the SVG + JS simulator</a> and here is the <a href="https://github.com/lpereira/Pense-Bem/">latest source code</a>. One can run the simulator by loading the website we have set up for it: <a href="http://labs.hardinfo.org/pb/">http://labs.hardinfo.org/pb/</a>
-
-In the website we have some more technical info on the project, but I pretty much cover the most important aspects here. I still hope that someday we'll find a way to properlly dump the Z8 microcontroller. Leandro even dropped one of these to a fellow hacker in a conference in Europe a couple years ago in the hope he would try the nitric acid approach he's supposedly skilled at. But surely he's got priorities on which chip to decap next, so an obscure children toy from the eighties may not be in the top of his TO-DO list...
-
-I have seen a few devices in the MESS source code that use a Z8 chip, so I guess someone may already master the technique of dumping these without the need of chip decapping. It would be great to have some input from the community on that.
-
-Happy hacking, Felipe Sanches
-
-PS: On my next posts I plan to talk about devices I was able to actually emulate as part of my first contributions to the MESS project.
-
-PS2: I am publishing this without images. Please visit this blogpost later if you wish to see some images &amp; photos. I'll publish it "raw" right now and I'll try to gradually embelish it later this week. :-)]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>37</wp:post_id>
-		<wp:post_date>2014-10-04 01:04:55</wp:post_date>
-		<wp:post_date_gmt>2014-10-04 04:04:55</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>pensebem-smartstart</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 				<title>LiteON SYS-GC150ATA - LCD panel</title>
 		<link>http://mamedev.emulab.it/fsanches/?p=39</link>
 		<pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
@@ -661,6 +604,99 @@ PS2: I am publishing this without images. Please visit this blogpost later if yo
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>PenseBem_simulator</title>
+		<link>http://mamedev.emulab.it/fsanches/?attachment_id=55</link>
+		<pubDate>Sat, 04 Oct 2014 12:46:30 +0000</pubDate>
+		<dc:creator><![CDATA[Felipe]]></dc:creator>
+		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/wp-content/uploads/2014/10/PenseBem_simulator.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[screenshot of the PenseBem simulator, running in a webbrowser]]></content:encoded>
+		<excerpt:encoded><![CDATA[PenseBem simulator]]></excerpt:encoded>
+		<wp:post_id>55</wp:post_id>
+		<wp:post_date>2014-10-04 09:46:30</wp:post_date>
+		<wp:post_date_gmt>2014-10-04 12:46:30</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>pensebem_simulator</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>37</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://mamedev.emulab.it/fsanches/wp-content/uploads/2014/10/PenseBem_simulator.png</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2014/10/PenseBem_simulator.png]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:696;s:6:"height";i:482;s:4:"file";s:30:"2014/10/PenseBem_simulator.png";s:5:"sizes";a:3:{s:9:"thumbnail";a:4:{s:4:"file";s:30:"PenseBem_simulator-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:30:"PenseBem_simulator-300x207.png";s:5:"width";i:300;s:6:"height";i:207;s:9:"mime-type";s:9:"image/png";}s:14:"post-thumbnail";a:4:{s:4:"file";s:30:"PenseBem_simulator-672x372.png";s:5:"width";i:672;s:6:"height";i:372;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_image_alt</wp:meta_key>
+			<wp:meta_value><![CDATA[screenshot of the PenseBem simulator]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>PenseBem / SmartStart</title>
+		<link>http://mamedev.emulab.it/fsanches/?p=37</link>
+		<pubDate>Sat, 04 Oct 2014 04:04:55 +0000</pubDate>
+		<dc:creator><![CDATA[Felipe]]></dc:creator>
+		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=37</guid>
+		<description></description>
+		<content:encoded><![CDATA[<blockquote>
+
+[caption id="attachment_55" align="alignnone" width="300"]<a href="http://mamedev.emulab.it/fsanches/wp-content/uploads/2014/10/PenseBem_simulator.png"><img class="size-medium wp-image-55" src="http://mamedev.emulab.it/fsanches/wp-content/uploads/2014/10/PenseBem_simulator-300x207.png" alt="screenshot of the PenseBem simulator" width="300" height="207" /></a> PenseBem simulator[/caption]</blockquote>
+I've been in contact with the <a href="http://www.mess.org/">MESS project</a> for a few years already, so it is a bit hard to decide which specific emulated device should I talk about first when starting this new blog. It seems to me that the best way to start would be perhaps by talking about the way I first got in contact with the project.
+
+Back in 2010 I was, for some reason I can't remember anymore, starting to get interested in emulation. It is probably related to the fact I had been hanging out with <a href="http://blog.ricbit.com/">Ricardo Bittencourt</a> (a.k.a. RicBit) at the university laboratory. RicBit is the author of a famous MSX emulator called BrMSX. It was fully implemented in x86 assembly language, which is quite impressive. The source code is listed <a href="https://github.com/ricbit/brmsx">here</a> (I wish it had a free software license attached to it... :-D).
+
+So, I started wondering whether it would be possible for me to be part of the emulation community by writting my own emulator. It was just not clear to me back then what was yet left to be emulated. (nowadays I know the answer is: "a whole lot of stuff !") I tried to map all of the video-game consoles I had been in contact with since childhood and it seemed to me that everything was already emulated, so it was a bit frustrating at first to think about it.
+
+But then I remembered this old children toy called <a href="http://www.pakequis.com.br/2010/01/por-dentro-do-pense-bem-da-tectoy.html">PenseBem</a> (which later I figured out was called SmartStart in the US). Here in Brazil it was manufactured by TecToy. By the way, the expression "pense bem", in portuguese means something like "think carefully".
+
+I checked out the MAME source code, started looking at it and learning how it works and wondered how could I adapt it to emulate the PenseBem toy. Then a friend told me about MESS and why it was better suited to my purpose, i.e. emulating something that is not an arcade game.
+
+About one year later, while spending a weekend at the local hackerspace (<a href="http://garoa.net.br/">Garoa Hacker Clube</a>, in São Paulo, Brazil), me and my friend Leandro Pereira decided to resume the project and we finaly disassembled a unit of this toy that had surface in the hackerspace pile of random electronics stuff.
+
+When we opened it we faced a very simple circuit. The most proeminent component was a Z8 microcontroller. I was used to Z80 assembly coding (because of the MSX computer I had when I was a child and also due to some optimization work of typography rendering we were doing at the lab at the university) so I was excited to take a look at the firmware disassembly of the toy. I was expecting that the Z8 code would probably look similar to the Z80 routines I was used to.
+
+Unfortunatelly, we couldn't figure out a way to dump the device. We did not find an exact datasheet for that part number (Z0860008SC), and while  looking at Zilog documentation for other similar Z8-based chips, we could not find a way to dump it. Apparently the internal memory containing the firmware is written at the factory and not meant to be neigther updated nor dumped. My guess is that there are not even data/address lines tied to pins in the chip DIP28 packaging.
+
+Since it seemed impossible to dump the firmware (without nitric acid :-P) it meant real emulation would not be possible. So we decided to at least simulate the device by reimplementing its functionality, based on our observations. There was some reverse engineering effort already done by Eduardo Habkost, who mapped the overall behaviour of the random number generator used by the toy to generate the list of correct answers to the questionnaires that were employed in the toy.
+
+Based on <a href="https://github.com/lpereira/Pense-Bem/commit/0205359abb85e8b91398b7af021a4ea21a120b38">Eduardo's findings</a> we started working on a javascript implementation of the simulator. I was deeply involved in the Inkscape development team, so SVG was my natural choice for creating the graphical interface. The SVG file contained the artistic representation of the PenseBem/SmartStart console. It also had javascript event handlers attached to certain vector objects so that when you open the SVG file in a modern web-browser you can actually interact with it. Javascript is used to implement the actual behaviour. Visual feedback is provided by changing the color of the 14-segment display segments. We used the HTML5 audio element and API to programmatically generate the square wave tones.
+
+Here's the <a href="https://github.com/lpereira/Pense-Bem/commit/f9b10892876c846d0f9c6c2a5acf06dc9a53bdaf">first commit of the SVG + JS simulator</a> and here is the <a href="https://github.com/lpereira/Pense-Bem/">latest source code</a>. One can run the simulator by loading the website we have set up for it: <a href="http://labs.hardinfo.org/pb/">http://labs.hardinfo.org/pb/</a>
+
+In the website we have some more technical info on the project, but I pretty much cover the most important aspects here. I still hope that someday we'll find a way to properlly dump the Z8 microcontroller. Leandro even dropped one of these to a fellow hacker in a conference in Europe a couple years ago in the hope he would try the nitric acid approach he's supposedly skilled at. But surely he's got priorities on which chip to decap next, so an obscure children toy from the eighties may not be in the top of his TO-DO list...
+
+I have seen a few devices in the MESS source code that use a Z8 chip, so I guess someone may already master the technique of dumping these without the need of chip decapping. It would be great to have some input from the community on that.
+
+Happy hacking, Felipe Sanches
+
+PS: On my next posts I plan to talk about devices I was able to actually emulate as part of my first contributions to the MESS project.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>37</wp:post_id>
+		<wp:post_date>2014-10-04 01:04:55</wp:post_date>
+		<wp:post_date_gmt>2014-10-04 04:04:55</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>pensebem-smartstart</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="undumped"><![CDATA[undumped]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[2]]></wp:meta_value>
