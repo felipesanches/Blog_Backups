@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.0" created="2014-10-05 22:26" -->
+<!-- generator="WordPress/4.0" created="2014-10-07 13:20" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Felipe Sanches - MAME/MESS blog</title>
 	<link>http://mamedev.emulab.it/fsanches</link>
 	<description>Emulation as a way of learning hardware design.</description>
-	<pubDate>Sun, 05 Oct 2014 22:26:41 +0000</pubDate>
+	<pubDate>Tue, 07 Oct 2014 13:20:13 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://mamedev.emulab.it/fsanches</wp:base_site_url>
@@ -76,33 +76,6 @@ Felipe "Juca" Sanches]]></content:encoded>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[default]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-				<title>Dumping gear: TL866CS</title>
-		<link>http://mamedev.emulab.it/fsanches/?p=10</link>
-		<pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-		<dc:creator><![CDATA[Felipe]]></dc:creator>
-		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=10</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>10</wp:post_id>
-		<wp:post_date>2014-09-28 23:11:27</wp:post_date>
-		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name></wp:post_name>
-		<wp:status>draft</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[2]]></wp:meta_value>
@@ -525,6 +498,33 @@ how to approach dumping &amp; emulation]]></content:encoded>
 		</wp:postmeta>
 	</item>
 	<item>
+				<title>VTech toy-laptop (in german)</title>
+		<link>http://mamedev.emulab.it/fsanches/?p=43</link>
+		<pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Felipe]]></dc:creator>
+		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=43</guid>
+		<description></description>
+		<content:encoded><![CDATA[from Vienna, Austria.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>43</wp:post_id>
+		<wp:post_date>2014-09-29 15:42:26</wp:post_date>
+		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name></wp:post_name>
+		<wp:status>draft</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 				<title>PenseBem_simulator</title>
 		<link>http://mamedev.emulab.it/fsanches/?attachment_id=55</link>
 		<pubDate>Sat, 04 Oct 2014 12:46:30 +0000</pubDate>
@@ -684,6 +684,59 @@ Felipe Sanches]]></content:encoded>
 		</wp:postmeta>
 	</item>
 	<item>
+				<title>Dumping gear: TL866CS</title>
+		<link>http://mamedev.emulab.it/fsanches/?p=10</link>
+		<pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Felipe]]></dc:creator>
+		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=10</guid>
+		<description></description>
+		<content:encoded><![CDATA[One key element in emulation is ROM dumping. This is the process bu which we are able to extract the contents of a memory chip such as an EPROM or the internal memory of a microcontroller.
+
+When I started to learn emulation, I did not have access to propper ROM dumping equipment ,so I resorted to building my own ROM dump circuitry around the Arduino. The result was a tangle of wires in a breadboard. It worked OK yielding valid results, but was a slow procedure requiring manual post-processing of the data and it had to be reassembled from scratch everytime I needed to dump something. I would not trust a bunch of messy wires left asside for a week in a bradboard. I would preffer to spend something around 15 minutes to half an hour reassembling the circuit to be sure it was  in good condition to be used.
+
+The process of designing my own ROM dumper and building it from scratch (several times) was, for sure, aligned to the DIY mindset and helped me grasp the technology. But I needed something more reliable so that I could move on to other emulation challenges. So I went after a pre-assembled, commercial unit and I found a nice review of the <a href="http://www.eevblog.com/forum/blog/eevblog-411-minipro-tl866-universal-programmer-review/">Minipro TL866CS at the EEVBlog</a>.
+
+I was aware that it would only work with the crappy proprietary host application provided by the chinese manufacturer, but I was willing to delve into USB-sniffer based reverse engineering in order to write my own tools to use it, so I ordered one of these.
+
+While I was waiting for the package to arrive from China, though, I discovered that the Ukrainians were faster and a hacker had already reverse engineered the protocol and released a free software program to operate the TL866CS. Yay!!! :-)
+
+So, this has been a very handy tool to me. It is able to both dump and also write to an enourmous variety of memory chips (including the internal memory of several models of microcontroller chips). The fact that it operates over USB is very handy for modern computers. The older dumping/programming devices used to rely on interfaces such as serial and/or parallel ports, or other proprietary interfaces which are not easily accessible anymore nowadays.
+
+And as the TL866CS is small and lightweigh, I always carry it (and a USB cable) on my backpack, so I'm ready to dump whatever cool device I may stumble upon in a casual day :-)
+
+The ZIF socket on top of the TL866CS allows me to work with chips in DIP packaging. There were some situations in which I had to dump chips with other packaging types, such as the 8051 microcontroller used in the Ultratec Minicom IV, which is a PLCC44 chip. For that, I have bought the PLCC44 to DIP40 adapter shown below:
+
+PHOTO HERE
+
+There are other adapters available for other packages such as PLCC32, TSOP, etc. But some of these are pretty much expensive, so I only plan to buy them whenever I really need them.
+
+I am extremely happy with this programmer/dumper. There is only one pending issue with it, in my opinion. It is great that is operates with free software under GNU/Linux, on the command line. It would be nice to have a graphical user interface, but not really essential. The tricky problem that really still remains to be solved is the fact that all of the "intelligence" of the device is actually inside its firmware and not in the host application.
+
+The algorithms for supporting the dumping and programming of the several thousands of chips supported are implemented in the internal firmware, running on a PIC microcontroller. In some cases we may need to deal with chips that are not supported by it. I think it would be great to have a free software implementation of firmware for the TL866CS, so that we could add support for other chips. Also, by having free firmware, the TL866CS could potentially be used for other purposes as well. One idea would be to use it as a testing bench for verifying if a chip is properly working.
+
+&nbsp;
+
+&nbsp;]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>10</wp:post_id>
+		<wp:post_date>2014-10-07 09:46:59</wp:post_date>
+		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name></wp:post_name>
+		<wp:status>draft</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 				<title>PenseBem / SmartStart</title>
 		<link>http://mamedev.emulab.it/fsanches/?p=37</link>
 		<pubDate>Sat, 04 Oct 2014 04:04:55 +0000</pubDate>
@@ -742,33 +795,6 @@ PS: On my next posts I plan to talk about devices I was able to actually emulate
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="category" nicename="undumped"><![CDATA[undumped]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-				<title>VTech toy-laptop (in german)</title>
-		<link>http://mamedev.emulab.it/fsanches/?p=43</link>
-		<pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-		<dc:creator><![CDATA[Felipe]]></dc:creator>
-		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=43</guid>
-		<description></description>
-		<content:encoded><![CDATA[from Vienna, Austria.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>43</wp:post_id>
-		<wp:post_date>2014-09-29 15:42:26</wp:post_date>
-		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name></wp:post_name>
-		<wp:status>draft</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[2]]></wp:meta_value>
