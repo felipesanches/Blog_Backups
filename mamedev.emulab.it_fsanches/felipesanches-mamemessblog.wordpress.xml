@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.0" created="2014-10-07 13:20" -->
+<!-- generator="WordPress/4.0" created="2014-10-14 17:07" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Felipe Sanches - MAME/MESS blog</title>
 	<link>http://mamedev.emulab.it/fsanches</link>
 	<description>Emulation as a way of learning hardware design.</description>
-	<pubDate>Tue, 07 Oct 2014 13:20:13 +0000</pubDate>
+	<pubDate>Tue, 14 Oct 2014 17:07:03 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://mamedev.emulab.it/fsanches</wp:base_site_url>
@@ -38,8 +38,10 @@
 	<wp:author><wp:author_id>1</wp:author_id><wp:author_login>admin</wp:author_login><wp:author_email>simone@emulab.it</wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 	<wp:author><wp:author_id>2</wp:author_id><wp:author_login>Felipe</wp:author_login><wp:author_email>juca@members.fsf.org</wp:author_email><wp:author_display_name><![CDATA[Felipe Sanches]]></wp:author_display_name><wp:author_first_name><![CDATA[Felipe]]></wp:author_first_name><wp:author_last_name><![CDATA[Sanches]]></wp:author_last_name></wp:author>
 
+	<wp:category><wp:term_id>3</wp:term_id><wp:category_nicename>tools</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[tools]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>1</wp:term_id><wp:category_nicename>uncategorized</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Uncategorized]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>2</wp:term_id><wp:category_nicename>undumped</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[undumped]]></wp:cat_name></wp:category>
+	<wp:tag><wp:term_id>4</wp:term_id><wp:tag_slug>rom-dumping</wp:tag_slug><wp:tag_name><![CDATA[rom dumping]]></wp:tag_name></wp:tag>
 
 	<generator>http://wordpress.org/?v=4.0</generator>
 
@@ -471,60 +473,6 @@ how to approach dumping &amp; emulation]]></content:encoded>
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>EPSON 486 notebook</title>
-		<link>http://mamedev.emulab.it/fsanches/?p=41</link>
-		<pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-		<dc:creator><![CDATA[Felipe]]></dc:creator>
-		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=41</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>41</wp:post_id>
-		<wp:post_date>2014-09-29 15:40:42</wp:post_date>
-		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name></wp:post_name>
-		<wp:status>draft</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-				<title>VTech toy-laptop (in german)</title>
-		<link>http://mamedev.emulab.it/fsanches/?p=43</link>
-		<pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-		<dc:creator><![CDATA[Felipe]]></dc:creator>
-		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=43</guid>
-		<description></description>
-		<content:encoded><![CDATA[from Vienna, Austria.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>43</wp:post_id>
-		<wp:post_date>2014-09-29 15:42:26</wp:post_date>
-		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name></wp:post_name>
-		<wp:status>draft</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 				<title>PenseBem_simulator</title>
 		<link>http://mamedev.emulab.it/fsanches/?attachment_id=55</link>
 		<pubDate>Sat, 04 Oct 2014 12:46:30 +0000</pubDate>
@@ -653,6 +601,76 @@ how to approach dumping &amp; emulation]]></content:encoded>
 		</wp:postmeta>
 	</item>
 	<item>
+				<title>MiniPro_TL866CS</title>
+		<link>http://mamedev.emulab.it/fsanches/?attachment_id=66</link>
+		<pubDate>Tue, 14 Oct 2014 16:52:11 +0000</pubDate>
+		<dc:creator><![CDATA[Felipe]]></dc:creator>
+		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/wp-content/uploads/2014/10/MiniPro_TL866CS.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[MiniPro TL866CS Universal IC Programmer]]></excerpt:encoded>
+		<wp:post_id>66</wp:post_id>
+		<wp:post_date>2014-10-14 13:52:11</wp:post_date>
+		<wp:post_date_gmt>2014-10-14 16:52:11</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>minipro_tl866cs</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>10</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://mamedev.emulab.it/fsanches/wp-content/uploads/2014/10/MiniPro_TL866CS.jpg</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2014/10/MiniPro_TL866CS.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:3264;s:6:"height";i:2448;s:4:"file";s:27:"2014/10/MiniPro_TL866CS.jpg";s:5:"sizes";a:5:{s:9:"thumbnail";a:4:{s:4:"file";s:27:"MiniPro_TL866CS-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:27:"MiniPro_TL866CS-300x225.jpg";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:28:"MiniPro_TL866CS-1024x768.jpg";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:27:"MiniPro_TL866CS-672x372.jpg";s:5:"width";i:672;s:6:"height";i:372;s:9:"mime-type";s:10:"image/jpeg";}s:25:"twentyfourteen-full-width";a:4:{s:4:"file";s:28:"MiniPro_TL866CS-1038x576.jpg";s:5:"width";i:1038;s:6:"height";i:576;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:11:{s:8:"aperture";d:2.649999999999999911182158029987476766109466552734375;s:6:"credit";s:0:"";s:6:"camera";s:8:"GT-I9300";s:7:"caption";s:0:"";s:17:"created_timestamp";i:1399731065;s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"3.7";s:3:"iso";s:3:"144";s:13:"shutter_speed";s:17:"0.033333333333333";s:5:"title";s:0:"";s:11:"orientation";i:1;}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_image_alt</wp:meta_key>
+			<wp:meta_value><![CDATA[MiniPro TL866CS Universal IC Programmer]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Minipro_TL866CS_USB_port</title>
+		<link>http://mamedev.emulab.it/fsanches/?attachment_id=70</link>
+		<pubDate>Tue, 14 Oct 2014 17:00:13 +0000</pubDate>
+		<dc:creator><![CDATA[Felipe]]></dc:creator>
+		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/wp-content/uploads/2014/10/Minipro_TL866CS_USB_port.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[Minipro's handy USB interface.]]></excerpt:encoded>
+		<wp:post_id>70</wp:post_id>
+		<wp:post_date>2014-10-14 14:00:13</wp:post_date>
+		<wp:post_date_gmt>2014-10-14 17:00:13</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>minipro_tl866cs_usb_port</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>10</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://mamedev.emulab.it/fsanches/wp-content/uploads/2014/10/Minipro_TL866CS_USB_port.jpg</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2014/10/Minipro_TL866CS_USB_port.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:3264;s:6:"height";i:2448;s:4:"file";s:36:"2014/10/Minipro_TL866CS_USB_port.jpg";s:5:"sizes";a:5:{s:9:"thumbnail";a:4:{s:4:"file";s:36:"Minipro_TL866CS_USB_port-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:36:"Minipro_TL866CS_USB_port-300x225.jpg";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:37:"Minipro_TL866CS_USB_port-1024x768.jpg";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:36:"Minipro_TL866CS_USB_port-672x372.jpg";s:5:"width";i:672;s:6:"height";i:372;s:9:"mime-type";s:10:"image/jpeg";}s:25:"twentyfourteen-full-width";a:4:{s:4:"file";s:37:"Minipro_TL866CS_USB_port-1038x576.jpg";s:5:"width";i:1038;s:6:"height";i:576;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:11:{s:8:"aperture";d:2.649999999999999911182158029987476766109466552734375;s:6:"credit";s:0:"";s:6:"camera";s:8:"GT-I9300";s:7:"caption";s:0:"";s:17:"created_timestamp";i:1399731129;s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"3.7";s:3:"iso";s:3:"188";s:13:"shutter_speed";s:17:"0.066666666666667";s:5:"title";s:0:"";s:11:"orientation";i:1;}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_image_alt</wp:meta_key>
+			<wp:meta_value><![CDATA[Minipro's handy USB interface.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 				<title>Thanks, Simone &amp; hap</title>
 		<link>http://mamedev.emulab.it/fsanches/?p=8</link>
 		<pubDate>Tue, 16 Sep 2014 03:21:09 +0000</pubDate>
@@ -686,11 +704,13 @@ Felipe Sanches]]></content:encoded>
 	<item>
 				<title>Dumping gear: TL866CS</title>
 		<link>http://mamedev.emulab.it/fsanches/?p=10</link>
-		<pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+		<pubDate>Tue, 14 Oct 2014 16:54:15 +0000</pubDate>
 		<dc:creator><![CDATA[Felipe]]></dc:creator>
 		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=10</guid>
 		<description></description>
-		<content:encoded><![CDATA[One key element in emulation is ROM dumping. This is the process bu which we are able to extract the contents of a memory chip such as an EPROM or the internal memory of a microcontroller.
+		<content:encoded><![CDATA[[caption id="attachment_66" align="aligncenter" width="474"]<a href="http://mamedev.emulab.it/fsanches/wp-content/uploads/2014/10/MiniPro_TL866CS.jpg"><img class="size-large wp-image-66" src="http://mamedev.emulab.it/fsanches/wp-content/uploads/2014/10/MiniPro_TL866CS-1024x768.jpg" alt="MiniPro TL866CS Universal IC Programmer" width="474" height="355" /></a> MiniPro TL866CS Universal IC Programmer[/caption]
+
+One key element in emulation is ROM dumping. This is the process bu which we are able to extract the contents of a memory chip such as an EPROM or the internal memory of a microcontroller.
 
 When I started to learn emulation, I did not have access to propper ROM dumping equipment ,so I resorted to building my own ROM dump circuitry around the Arduino. The result was a tangle of wires in a breadboard. It worked OK yielding valid results, but was a slow procedure requiring manual post-processing of the data and it had to be reassembled from scratch everytime I needed to dump something. I would not trust a bunch of messy wires left asside for a week in a bradboard. I would preffer to spend something around 15 minutes to half an hour reassembling the circuit to be sure it was  in good condition to be used.
 
@@ -698,15 +718,17 @@ The process of designing my own ROM dumper and building it from scratch (several
 
 I was aware that it would only work with the crappy proprietary host application provided by the chinese manufacturer, but I was willing to delve into USB-sniffer based reverse engineering in order to write my own tools to use it, so I ordered one of these.
 
-While I was waiting for the package to arrive from China, though, I discovered that the Ukrainians were faster and a hacker had already reverse engineered the protocol and released a free software program to operate the TL866CS. Yay!!! :-)
+While I was waiting for the package to arrive from China, though, I discovered that the Ukrainians were faster and a hacker had already reverse engineered the protocol and released a <a href="https://github.com/vdudouyt/minipro">free software program</a> to operate the TL866CS. Yay!!! :-)
 
 So, this has been a very handy tool to me. It is able to both dump and also write to an enourmous variety of memory chips (including the internal memory of several models of microcontroller chips). The fact that it operates over USB is very handy for modern computers. The older dumping/programming devices used to rely on interfaces such as serial and/or parallel ports, or other proprietary interfaces which are not easily accessible anymore nowadays.
+
+[caption id="attachment_70" align="aligncenter" width="474"]<a href="http://mamedev.emulab.it/fsanches/wp-content/uploads/2014/10/Minipro_TL866CS_USB_port.jpg"><img class="size-large wp-image-70" src="http://mamedev.emulab.it/fsanches/wp-content/uploads/2014/10/Minipro_TL866CS_USB_port-1024x768.jpg" alt="Minipro's handy USB interface." width="474" height="355" /></a> Minipro's handy USB interface.[/caption]
 
 And as the TL866CS is small and lightweigh, I always carry it (and a USB cable) on my backpack, so I'm ready to dump whatever cool device I may stumble upon in a casual day :-)
 
 The ZIF socket on top of the TL866CS allows me to work with chips in DIP packaging. There were some situations in which I had to dump chips with other packaging types, such as the 8051 microcontroller used in the Ultratec Minicom IV, which is a PLCC44 chip. For that, I have bought the PLCC44 to DIP40 adapter shown below:
 
-PHOTO HERE
+<a href="http://www.leomodulos.com.br/app/Config/160//Imagens/Produto/grd_PLCC4440simples.jpg">PHOTO HERE </a>(I'll upload a better picture here later)
 
 There are other adapters available for other packages such as PLCC32, TSOP, etc. But some of these are pretty much expensive, so I only plan to buy them whenever I really need them.
 
@@ -719,18 +741,19 @@ The algorithms for supporting the dumping and programming of the several thousan
 &nbsp;]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>10</wp:post_id>
-		<wp:post_date>2014-10-07 09:46:59</wp:post_date>
-		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
+		<wp:post_date>2014-10-14 13:54:15</wp:post_date>
+		<wp:post_date_gmt>2014-10-14 16:54:15</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name></wp:post_name>
-		<wp:status>draft</wp:status>
+		<wp:post_name>dumping-gear-tl866cs</wp:post_name>
+		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type>post</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<category domain="post_tag" nicename="rom-dumping"><![CDATA[rom dumping]]></category>
+		<category domain="category" nicename="tools"><![CDATA[tools]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[2]]></wp:meta_value>
@@ -795,6 +818,60 @@ PS: On my next posts I plan to talk about devices I was able to actually emulate
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="category" nicename="undumped"><![CDATA[undumped]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>EPSON 486 notebook</title>
+		<link>http://mamedev.emulab.it/fsanches/?p=41</link>
+		<pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Felipe]]></dc:creator>
+		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=41</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>41</wp:post_id>
+		<wp:post_date>2014-09-29 15:40:42</wp:post_date>
+		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name></wp:post_name>
+		<wp:status>draft</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>VTech toy-laptop (in german)</title>
+		<link>http://mamedev.emulab.it/fsanches/?p=43</link>
+		<pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Felipe]]></dc:creator>
+		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=43</guid>
+		<description></description>
+		<content:encoded><![CDATA[from Vienna, Austria.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>43</wp:post_id>
+		<wp:post_date>2014-09-29 15:42:26</wp:post_date>
+		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name></wp:post_name>
+		<wp:status>draft</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[2]]></wp:meta_value>
