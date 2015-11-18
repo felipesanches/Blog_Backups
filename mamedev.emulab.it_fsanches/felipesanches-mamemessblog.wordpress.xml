@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-
+<!-- generator="WordPress/4.2.5" created="2015-11-19 00:12" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,28 +29,44 @@
 	<title>Felipe Sanches - MAME/MESS blog</title>
 	<link>http://mamedev.emulab.it/fsanches</link>
 	<description>Emulation as a way of learning hardware design.</description>
-	<pubDate>Sun, 14 Dec 2014 02:03:55 +0000</pubDate>
+	<pubDate>Thu, 19 Nov 2015 00:12:43 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://mamedev.emulab.it/fsanches</wp:base_site_url>
 	<wp:base_blog_url>http://mamedev.emulab.it/fsanches</wp:base_blog_url>
 
-	<wp:author><wp:author_id>1</wp:author_id><wp:author_login>admin</wp:author_login><wp:author_email>simone@emulab.it</wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
+	<wp:author><wp:author_id>3</wp:author_id><wp:author_login>Simone</wp:author_login><wp:author_email>simone@emulab.it</wp:author_email><wp:author_display_name><![CDATA[Simone Chifari]]></wp:author_display_name><wp:author_first_name><![CDATA[Simone]]></wp:author_first_name><wp:author_last_name><![CDATA[Chifari]]></wp:author_last_name></wp:author>
 	<wp:author><wp:author_id>2</wp:author_id><wp:author_login>Felipe</wp:author_login><wp:author_email>juca@members.fsf.org</wp:author_email><wp:author_display_name><![CDATA[Felipe Sanches]]></wp:author_display_name><wp:author_first_name><![CDATA[Felipe]]></wp:author_first_name><wp:author_last_name><![CDATA[Sanches]]></wp:author_last_name></wp:author>
 
+	<wp:category><wp:term_id>7</wp:term_id><wp:category_nicename>3d-models</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[3d models]]></wp:cat_name></wp:category>
+	<wp:category><wp:term_id>9</wp:term_id><wp:category_nicename>arcade</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[arcade]]></wp:cat_name></wp:category>
+	<wp:category><wp:term_id>8</wp:term_id><wp:category_nicename>brazilian-hardware</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Brazilian hardware]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>5</wp:term_id><wp:category_nicename>bytecode</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[bytecode]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>3</wp:term_id><wp:category_nicename>tools</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[tools]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>1</wp:term_id><wp:category_nicename>uncategorized</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Uncategorized]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>2</wp:term_id><wp:category_nicename>undumped</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[undumped]]></wp:cat_name></wp:category>
+	<wp:category><wp:term_id>6</wp:term_id><wp:category_nicename>update</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[update]]></wp:cat_name></wp:category>
+	<wp:tag><wp:term_id>11</wp:term_id><wp:tag_slug>3d-modeling</wp:tag_slug><wp:tag_name><![CDATA[3d modeling]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>10</wp:term_id><wp:tag_slug>3d-scanning</wp:tag_slug><wp:tag_name><![CDATA[3d scanning]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>16</wp:term_id><wp:tag_slug>8051</wp:tag_slug><wp:tag_name><![CDATA[8051]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>21</wp:term_id><wp:tag_slug>assembler</wp:tag_slug><wp:tag_name><![CDATA[assembler]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>18</wp:term_id><wp:tag_slug>dump</wp:tag_slug><wp:tag_name><![CDATA[dump]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>19</wp:term_id><wp:tag_slug>emulation</wp:tag_slug><wp:tag_name><![CDATA[emulation]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>17</wp:term_id><wp:tag_slug>firmware</wp:tag_slug><wp:tag_name><![CDATA[firmware]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>12</wp:term_id><wp:tag_slug>patinho-feio</wp:tag_slug><wp:tag_name><![CDATA[patinho feio]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>15</wp:term_id><wp:tag_slug>pcs2497</wp:tag_slug><wp:tag_name><![CDATA[pcs2497]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>14</wp:term_id><wp:tag_slug>poli</wp:tag_slug><wp:tag_name><![CDATA[poli]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>4</wp:term_id><wp:tag_slug>rom-dumping</wp:tag_slug><wp:tag_name><![CDATA[rom dumping]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>20</wp:term_id><wp:tag_slug>technical-documentation</wp:tag_slug><wp:tag_name><![CDATA[technical documentation]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>13</wp:term_id><wp:tag_slug>usp</wp:tag_slug><wp:tag_name><![CDATA[usp]]></wp:tag_name></wp:tag>
 
-	
+	<generator>http://wordpress.org/?v=4.2.5</generator>
 
 	<item>
-				<title>Happy Hacking!</title>
+		<title>Happy Hacking!</title>
 		<link>http://mamedev.emulab.it/fsanches/sample-page/</link>
 		<pubDate>Mon, 15 Sep 2014 19:47:54 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
+		<dc:creator><![CDATA[Simone]]></dc:creator>
 		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?page_id=2</guid>
 		<description></description>
 		<content:encoded><![CDATA[This is a MESS-specific blog where I blog about developing emulators for anything I can find in the electronics "trash"-bin :-)
@@ -85,9 +101,9 @@ Felipe "Juca" Sanches]]></content:encoded>
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>Ultratec Minicom IV teletype</title>
+		<title>Ultratec Minicom IV teletype</title>
 		<link>http://mamedev.emulab.it/fsanches/?p=12</link>
-		<pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[Felipe]]></dc:creator>
 		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=12</guid>
 		<description></description>
@@ -114,9 +130,9 @@ Felipe "Juca" Sanches]]></content:encoded>
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>Casiowriter CW16</title>
+		<title>Casiowriter CW16</title>
 		<link>http://mamedev.emulab.it/fsanches/?p=14</link>
-		<pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[Felipe]]></dc:creator>
 		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=14</guid>
 		<description></description>
@@ -143,9 +159,9 @@ Felipe "Juca" Sanches]]></content:encoded>
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>TECNBRAS Dot Matrix Display</title>
+		<title>TECNBRAS Dot Matrix Display</title>
 		<link>http://mamedev.emulab.it/fsanches/?p=16</link>
-		<pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[Felipe]]></dc:creator>
 		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=16</guid>
 		<description></description>
@@ -172,9 +188,9 @@ Felipe "Juca" Sanches]]></content:encoded>
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>SONY PVE500</title>
+		<title>SONY PVE500</title>
 		<link>http://mamedev.emulab.it/fsanches/?p=18</link>
-		<pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[Felipe]]></dc:creator>
 		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=18</guid>
 		<description></description>
@@ -207,9 +223,9 @@ current pending tasks
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>Dot matrix printers</title>
+		<title>Dot matrix printers</title>
 		<link>http://mamedev.emulab.it/fsanches/?p=20</link>
-		<pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[Felipe]]></dc:creator>
 		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=20</guid>
 		<description></description>
@@ -238,9 +254,9 @@ Tarrafa Hacker Clube]]></content:encoded>
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>Makerbot Replicator 1 emulation</title>
+		<title>Makerbot Replicator 1 emulation</title>
 		<link>http://mamedev.emulab.it/fsanches/?p=22</link>
-		<pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[Felipe]]></dc:creator>
 		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=22</guid>
 		<description></description>
@@ -275,9 +291,9 @@ missing timers in AVR8 &amp; buzzer + stepper motors control
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>Pixotosco: homebrew on Gunsmoke PCB</title>
+		<title>Pixotosco: homebrew on Gunsmoke PCB</title>
 		<link>http://mamedev.emulab.it/fsanches/?p=24</link>
-		<pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[Felipe]]></dc:creator>
 		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=24</guid>
 		<description></description>
@@ -302,119 +318,7 @@ missing timers in AVR8 &amp; buzzer + stepper motors control
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>Henry Prot II - brazilian hardware</title>
-		<link>http://mamedev.emulab.it/fsanches/?p=26</link>
-		<pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-		<dc:creator><![CDATA[Felipe]]></dc:creator>
-		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=26</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>26</wp:post_id>
-		<wp:post_date>2014-09-28 23:24:39</wp:post_date>
-		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name></wp:post_name>
-		<wp:status>draft</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-				<title>zaxxon discrete audio</title>
-		<link>http://mamedev.emulab.it/fsanches/?p=28</link>
-		<pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-		<dc:creator><![CDATA[Felipe]]></dc:creator>
-		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=28</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>28</wp:post_id>
-		<wp:post_date>2014-09-28 23:25:15</wp:post_date>
-		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name></wp:post_name>
-		<wp:status>draft</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-				<title>Intelbras TI630 &amp; OP4114</title>
-		<link>http://mamedev.emulab.it/fsanches/?p=30</link>
-		<pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-		<dc:creator><![CDATA[Felipe]]></dc:creator>
-		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=30</guid>
-		<description></description>
-		<content:encoded><![CDATA[* first attempts at emulating something
-
-* arduino interfacing to OP4114 LEDs sidepanel]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>30</wp:post_id>
-		<wp:post_date>2014-09-28 23:26:45</wp:post_date>
-		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name></wp:post_name>
-		<wp:status>draft</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-				<title>extracting statistical information from MAME/MESS database</title>
-		<link>http://mamedev.emulab.it/fsanches/?p=32</link>
-		<pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-		<dc:creator><![CDATA[Felipe]]></dc:creator>
-		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=32</guid>
-		<description></description>
-		<content:encoded><![CDATA[interesting/informative graphs in the Nicola Salmoria thesis
-
-is there a way to automate that?]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>32</wp:post_id>
-		<wp:post_date>2014-09-28 23:28:09</wp:post_date>
-		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name></wp:post_name>
-		<wp:status>draft</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-				<title>PenseBem_simulator</title>
+		<title>PenseBem_simulator</title>
 		<link>http://mamedev.emulab.it/fsanches/2014/10/04/pensebem-smartstart/pensebem_simulator/</link>
 		<pubDate>Sat, 04 Oct 2014 12:46:30 +0000</pubDate>
 		<dc:creator><![CDATA[Felipe]]></dc:creator>
@@ -449,7 +353,7 @@ is there a way to automate that?]]></content:encoded>
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>PenseBem_FSanches</title>
+		<title>PenseBem_FSanches</title>
 		<link>http://mamedev.emulab.it/fsanches/2014/10/04/pensebem-smartstart/pensebem_fsanches/</link>
 		<pubDate>Sun, 05 Oct 2014 22:11:34 +0000</pubDate>
 		<dc:creator><![CDATA[Felipe]]></dc:creator>
@@ -480,7 +384,7 @@ is there a way to automate that?]]></content:encoded>
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>PenseBem_Z8_microcontroller</title>
+		<title>PenseBem_Z8_microcontroller</title>
 		<link>http://mamedev.emulab.it/fsanches/2014/10/04/pensebem-smartstart/pensebem_z8_microcontroller/</link>
 		<pubDate>Sun, 05 Oct 2014 22:15:33 +0000</pubDate>
 		<dc:creator><![CDATA[Felipe]]></dc:creator>
@@ -511,7 +415,7 @@ is there a way to automate that?]]></content:encoded>
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>PenseBem/SmartStart PCB</title>
+		<title>PenseBem/SmartStart PCB</title>
 		<link>http://mamedev.emulab.it/fsanches/2014/10/04/pensebem-smartstart/pensebem_pcb/</link>
 		<pubDate>Sun, 05 Oct 2014 22:17:32 +0000</pubDate>
 		<dc:creator><![CDATA[Felipe]]></dc:creator>
@@ -542,7 +446,7 @@ is there a way to automate that?]]></content:encoded>
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>MiniPro_TL866CS</title>
+		<title>MiniPro_TL866CS</title>
 		<link>http://mamedev.emulab.it/fsanches/2014/10/14/dumping-gear-tl866cs/minipro_tl866cs/</link>
 		<pubDate>Tue, 14 Oct 2014 16:52:11 +0000</pubDate>
 		<dc:creator><![CDATA[Felipe]]></dc:creator>
@@ -577,7 +481,7 @@ is there a way to automate that?]]></content:encoded>
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>Minipro_TL866CS_USB_port</title>
+		<title>Minipro_TL866CS_USB_port</title>
 		<link>http://mamedev.emulab.it/fsanches/2014/10/14/dumping-gear-tl866cs/minipro_tl866cs_usb_port/</link>
 		<pubDate>Tue, 14 Oct 2014 17:00:13 +0000</pubDate>
 		<dc:creator><![CDATA[Felipe]]></dc:creator>
@@ -612,7 +516,7 @@ is there a way to automate that?]]></content:encoded>
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>PLCC44_DIP40</title>
+		<title>PLCC44_DIP40</title>
 		<link>http://mamedev.emulab.it/fsanches/2014/10/14/dumping-gear-tl866cs/plcc44_dip40/</link>
 		<pubDate>Tue, 14 Oct 2014 22:02:36 +0000</pubDate>
 		<dc:creator><![CDATA[Felipe]]></dc:creator>
@@ -647,7 +551,7 @@ is there a way to automate that?]]></content:encoded>
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>European logo of Another World / Out of This World</title>
+		<title>European logo of Another World / Out of This World</title>
 		<link>http://mamedev.emulab.it/fsanches/2014/12/13/another-world-bytecode-disassembly/title-europe/</link>
 		<pubDate>Sat, 13 Dec 2014 18:51:16 +0000</pubDate>
 		<dc:creator><![CDATA[Felipe]]></dc:creator>
@@ -678,7 +582,131 @@ is there a way to automate that?]]></content:encoded>
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>Thanks, Simone &amp; hap</title>
+		<title>gforce2sd_observer</title>
+		<link>http://mamedev.emulab.it/fsanches/2015/11/18/a-pleasant-visit-to-the-university/gforce2sd_observer/</link>
+		<pubDate>Wed, 18 Nov 2015 23:14:26 +0000</pubDate>
+		<dc:creator><![CDATA[Felipe]]></dc:creator>
+		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/wp-content/uploads/2015/11/gforce2sd_observer.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>98</wp:post_id>
+		<wp:post_date>2015-11-18 20:14:26</wp:post_date>
+		<wp:post_date_gmt>2015-11-18 23:14:26</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>gforce2sd_observer</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>97</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://mamedev.emulab.it/fsanches/wp-content/uploads/2015/11/gforce2sd_observer.png</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2015/11/gforce2sd_observer.png]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:802;s:6:"height";i:630;s:4:"file";s:30:"2015/11/gforce2sd_observer.png";s:5:"sizes";a:4:{s:9:"thumbnail";a:4:{s:4:"file";s:30:"gforce2sd_observer-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:30:"gforce2sd_observer-300x236.png";s:5:"width";i:300;s:6:"height";i:236;s:9:"mime-type";s:9:"image/png";}s:14:"post-thumbnail";a:4:{s:4:"file";s:30:"gforce2sd_observer-672x372.png";s:5:"width";i:672;s:6:"height";i:372;s:9:"mime-type";s:9:"image/png";}s:25:"twentyfourteen-full-width";a:4:{s:4:"file";s:30:"gforce2sd_observer-802x576.png";s:5:"width";i:802;s:6:"height";i:576;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>wackygtr_alligators_cam</title>
+		<link>http://mamedev.emulab.it/fsanches/2015/11/18/a-pleasant-visit-to-the-university/wackygtr_alligators_cam/</link>
+		<pubDate>Wed, 18 Nov 2015 23:15:44 +0000</pubDate>
+		<dc:creator><![CDATA[Felipe]]></dc:creator>
+		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/wp-content/uploads/2015/11/wackygtr_alligators_cam.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>99</wp:post_id>
+		<wp:post_date>2015-11-18 20:15:44</wp:post_date>
+		<wp:post_date_gmt>2015-11-18 23:15:44</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>wackygtr_alligators_cam</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>97</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://mamedev.emulab.it/fsanches/wp-content/uploads/2015/11/wackygtr_alligators_cam.png</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2015/11/wackygtr_alligators_cam.png]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:802;s:6:"height";i:630;s:4:"file";s:35:"2015/11/wackygtr_alligators_cam.png";s:5:"sizes";a:4:{s:9:"thumbnail";a:4:{s:4:"file";s:35:"wackygtr_alligators_cam-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:35:"wackygtr_alligators_cam-300x236.png";s:5:"width";i:300;s:6:"height";i:236;s:9:"mime-type";s:9:"image/png";}s:14:"post-thumbnail";a:4:{s:4:"file";s:35:"wackygtr_alligators_cam-672x372.png";s:5:"width";i:672;s:6:"height";i:372;s:9:"mime-type";s:9:"image/png";}s:25:"twentyfourteen-full-width";a:4:{s:4:"file";s:35:"wackygtr_alligators_cam-802x576.png";s:5:"width";i:802;s:6:"height";i:576;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Jpeg</title>
+		<link>http://mamedev.emulab.it/fsanches/2015/11/18/a-pleasant-visit-to-the-university/jpeg/</link>
+		<pubDate>Wed, 18 Nov 2015 23:17:28 +0000</pubDate>
+		<dc:creator><![CDATA[Felipe]]></dc:creator>
+		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/wp-content/uploads/2015/11/P_20151118_170934.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[Jpeg]]></excerpt:encoded>
+		<wp:post_id>100</wp:post_id>
+		<wp:post_date>2015-11-18 20:17:28</wp:post_date>
+		<wp:post_date_gmt>2015-11-18 23:17:28</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>jpeg</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>97</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://mamedev.emulab.it/fsanches/wp-content/uploads/2015/11/P_20151118_170934.jpg</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2015/11/P_20151118_170934.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:3264;s:6:"height";i:2448;s:4:"file";s:29:"2015/11/P_20151118_170934.jpg";s:5:"sizes";a:5:{s:9:"thumbnail";a:4:{s:4:"file";s:29:"P_20151118_170934-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:29:"P_20151118_170934-300x225.jpg";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:30:"P_20151118_170934-1024x768.jpg";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:29:"P_20151118_170934-672x372.jpg";s:5:"width";i:672;s:6:"height";i:372;s:9:"mime-type";s:10:"image/jpeg";}s:25:"twentyfourteen-full-width";a:4:{s:4:"file";s:30:"P_20151118_170934-1038x576.jpg";s:5:"width";i:1038;s:6:"height";i:576;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:11:{s:8:"aperture";d:2;s:6:"credit";s:0:"";s:6:"camera";s:4:"T00J";s:7:"caption";s:4:"Jpeg";s:17:"created_timestamp";i:1447866572;s:9:"copyright";s:0:"";s:12:"focal_length";s:4:"2.69";s:3:"iso";s:3:"320";s:13:"shutter_speed";s:6:"0.0666";s:5:"title";s:4:"Jpeg";s:11:"orientation";i:1;}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>pagina_0_capa</title>
+		<link>http://mamedev.emulab.it/fsanches/2015/11/18/a-pleasant-visit-to-the-university/pagina_0_capa/</link>
+		<pubDate>Wed, 18 Nov 2015 23:28:51 +0000</pubDate>
+		<dc:creator><![CDATA[Felipe]]></dc:creator>
+		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/wp-content/uploads/2015/11/pagina_0_capa.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>102</wp:post_id>
+		<wp:post_date>2015-11-18 20:28:51</wp:post_date>
+		<wp:post_date_gmt>2015-11-18 23:28:51</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>pagina_0_capa</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>97</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://mamedev.emulab.it/fsanches/wp-content/uploads/2015/11/pagina_0_capa.png</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2015/11/pagina_0_capa.png]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:2550;s:6:"height";i:3508;s:4:"file";s:25:"2015/11/pagina_0_capa.png";s:5:"sizes";a:5:{s:9:"thumbnail";a:4:{s:4:"file";s:25:"pagina_0_capa-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:25:"pagina_0_capa-218x300.png";s:5:"width";i:218;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";}s:5:"large";a:4:{s:4:"file";s:26:"pagina_0_capa-744x1024.png";s:5:"width";i:744;s:6:"height";i:1024;s:9:"mime-type";s:9:"image/png";}s:14:"post-thumbnail";a:4:{s:4:"file";s:25:"pagina_0_capa-672x372.png";s:5:"width";i:672;s:6:"height";i:372;s:9:"mime-type";s:9:"image/png";}s:25:"twentyfourteen-full-width";a:4:{s:4:"file";s:26:"pagina_0_capa-1038x576.png";s:5:"width";i:1038;s:6:"height";i:576;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Thanks, Simone &amp; hap</title>
 		<link>http://mamedev.emulab.it/fsanches/2014/09/16/thanks-simone-hap/</link>
 		<pubDate>Tue, 16 Sep 2014 03:21:09 +0000</pubDate>
 		<dc:creator><![CDATA[Felipe]]></dc:creator>
@@ -709,7 +737,7 @@ Felipe Sanches]]></content:encoded>
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>Dumping gear: TL866CS</title>
+		<title>Dumping gear: TL866CS</title>
 		<link>http://mamedev.emulab.it/fsanches/2014/10/14/dumping-gear-tl866cs/</link>
 		<pubDate>Tue, 14 Oct 2014 16:54:15 +0000</pubDate>
 		<dc:creator><![CDATA[Felipe]]></dc:creator>
@@ -763,9 +791,121 @@ The algorithms for supporting the dumping and programming of the several thousan
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>Emulation target: KN5000 musical keyboard</title>
+		<title>Henry Prot II - brazilian hardware</title>
+		<link>http://mamedev.emulab.it/fsanches/?p=26</link>
+		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Felipe]]></dc:creator>
+		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=26</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>26</wp:post_id>
+		<wp:post_date>2014-09-28 23:24:39</wp:post_date>
+		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name></wp:post_name>
+		<wp:status>draft</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>zaxxon discrete audio</title>
+		<link>http://mamedev.emulab.it/fsanches/?p=28</link>
+		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Felipe]]></dc:creator>
+		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=28</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>28</wp:post_id>
+		<wp:post_date>2014-09-28 23:25:15</wp:post_date>
+		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name></wp:post_name>
+		<wp:status>draft</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Intelbras TI630 &amp; OP4114</title>
+		<link>http://mamedev.emulab.it/fsanches/?p=30</link>
+		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Felipe]]></dc:creator>
+		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=30</guid>
+		<description></description>
+		<content:encoded><![CDATA[* first attempts at emulating something
+
+* arduino interfacing to OP4114 LEDs sidepanel]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>30</wp:post_id>
+		<wp:post_date>2014-09-28 23:26:45</wp:post_date>
+		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name></wp:post_name>
+		<wp:status>draft</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>extracting statistical information from MAME/MESS database</title>
+		<link>http://mamedev.emulab.it/fsanches/?p=32</link>
+		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Felipe]]></dc:creator>
+		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=32</guid>
+		<description></description>
+		<content:encoded><![CDATA[interesting/informative graphs in the Nicola Salmoria thesis
+
+is there a way to automate that?]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>32</wp:post_id>
+		<wp:post_date>2014-09-28 23:28:09</wp:post_date>
+		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name></wp:post_name>
+		<wp:status>draft</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Emulation target: KN5000 musical keyboard</title>
 		<link>http://mamedev.emulab.it/fsanches/?p=34</link>
-		<pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[Felipe]]></dc:creator>
 		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=34</guid>
 		<description></description>
@@ -796,7 +936,7 @@ how to approach dumping &amp; emulation]]></content:encoded>
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>PenseBem / SmartStart</title>
+		<title>PenseBem / SmartStart</title>
 		<link>http://mamedev.emulab.it/fsanches/2014/10/04/pensebem-smartstart/</link>
 		<pubDate>Sat, 04 Oct 2014 04:04:55 +0000</pubDate>
 		<dc:creator><![CDATA[Felipe]]></dc:creator>
@@ -860,9 +1000,9 @@ PS: On my next posts I plan to talk about devices I was able to actually emulate
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>LiteON SYS-GC150ATA - LCD panel</title>
+		<title>LiteON SYS-GC150ATA - LCD panel</title>
 		<link>http://mamedev.emulab.it/fsanches/?p=39</link>
-		<pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[Felipe]]></dc:creator>
 		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=39</guid>
 		<description></description>
@@ -887,9 +1027,9 @@ PS: On my next posts I plan to talk about devices I was able to actually emulate
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>EPSON 486 notebook</title>
+		<title>EPSON 486 notebook</title>
 		<link>http://mamedev.emulab.it/fsanches/?p=41</link>
-		<pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[Felipe]]></dc:creator>
 		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=41</guid>
 		<description></description>
@@ -914,9 +1054,9 @@ PS: On my next posts I plan to talk about devices I was able to actually emulate
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>VTech toy-laptop (in german)</title>
+		<title>VTech toy-laptop (in german)</title>
 		<link>http://mamedev.emulab.it/fsanches/?p=43</link>
-		<pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[Felipe]]></dc:creator>
 		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=43</guid>
 		<description></description>
@@ -941,9 +1081,9 @@ PS: On my next posts I plan to talk about devices I was able to actually emulate
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>SDCards -&gt; bunnie huang work</title>
+		<title>SDCards -&gt; bunnie huang work</title>
 		<link>http://mamedev.emulab.it/fsanches/?p=45</link>
-		<pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[Felipe]]></dc:creator>
 		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=45</guid>
 		<description></description>
@@ -968,7 +1108,7 @@ PS: On my next posts I plan to talk about devices I was able to actually emulate
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>Another World bytecode disassembly</title>
+		<title>Another World bytecode disassembly</title>
 		<link>http://mamedev.emulab.it/fsanches/2014/12/13/another-world-bytecode-disassembly/</link>
 		<pubDate>Sat, 13 Dec 2014 18:51:55 +0000</pubDate>
 		<dc:creator><![CDATA[Felipe]]></dc:creator>
@@ -1006,6 +1146,96 @@ Felipe "Juca" Sanches
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>A pleasant visit to the University</title>
+		<link>http://mamedev.emulab.it/fsanches/2015/11/18/a-pleasant-visit-to-the-university/</link>
+		<pubDate>Wed, 18 Nov 2015 23:51:34 +0000</pubDate>
+		<dc:creator><![CDATA[Felipe]]></dc:creator>
+		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=97</guid>
+		<description></description>
+		<content:encoded><![CDATA[Today I visited the engineering school of the University of São Paulo, where I studied 10 years ago. The reason for my visit was to get in contact with professors and laboratory technicians who may have access to 3D scanning equipment.
+
+Recently I have been experimenting with 3D modeling of arcade cabinets while building a prototype for a 3D artwork system for MAME. There's some technical discussion and brainstorming about that in <a href="https://github.com/mamedev/mame/issues/388">this issue on GitHub</a>, as well as python source code and OpenSCAD 3D modeling scripts in this <a href="https://github.com/felipesanches/MAME_3D_models">other git repository</a>.
+
+<a href="http://mamedev.emulab.it/fsanches/wp-content/uploads/2015/11/gforce2sd_observer.png"><img class="aligncenter size-full wp-image-98" src="http://mamedev.emulab.it/fsanches/wp-content/uploads/2015/11/gforce2sd_observer.png" alt="gforce2sd_observer" width="802" height="630" /></a>
+
+Even though Galaxy force 2 Super Deluxe still does not provide motor control signals (because the motor-cpu firmware still needs to be reverse engineered and emulated), one can try the 3D artwork system by running the Power Drift driver together with the gforce2 3D model. It is a hack, indeed, but it is just meant to serve as a proof of concept of the system and its proposed <a href="https://github.com/felipesanches/MAME_3D_models/blob/master/gforce2/gforce2.3dlay">XML schema</a> for describing scenes.
+
+This is also related to the Wacky Gator driver that I bootstrapped and that Sandro Ronco made work perfectly, <a href="http://mamedev.emulab.it/haze/2015/10/27/munching-in-under-the-radar/">as described here</a> by David Haywood's recent blogpost. And Wacky Gator can already be played with the 3D artwork system prototype :-D
+
+<a href="http://mamedev.emulab.it/fsanches/wp-content/uploads/2015/11/wackygtr_alligators_cam.png"><img class="aligncenter size-full wp-image-99" src="http://mamedev.emulab.it/fsanches/wp-content/uploads/2015/11/wackygtr_alligators_cam.png" alt="wackygtr_alligators_cam" width="802" height="630" /></a>
+
+But the alligators in the game are represented as simple blocky green shapes. So, the natural extension of this idea would be to add 3D scanned objects to the scene. And that's why I was at University of São Paulo today.
+
+But while there, I ended up talking to the technicians of the digital electronics laboratory. And then it reminded me of the prototyping panel that we used to deal with in some of out lab classes. I asked about it and they brought one of those boards for me to take a look.
+
+These educational boards contained lots of interesting things built around an 8051 CPU. It even has a tiny LCD panel (which surely must be the famous <a href="https://en.wikipedia.org/wiki/Hitachi_HD44780_LCD_controller">Hitachi HD44780</a>, right? :-D). So I dumped the firmware of the board and snapped a picture of it. I may soon write a skeleton driver for it in MAME.
+
+[caption id="attachment_100" align="aligncenter" width="474"]<a href="http://mamedev.emulab.it/fsanches/wp-content/uploads/2015/11/P_20151118_170934.jpg"><img class="size-large wp-image-100" src="http://mamedev.emulab.it/fsanches/wp-content/uploads/2015/11/P_20151118_170934-1024x768.jpg" alt="Jpeg" width="474" height="356" /></a> Educational board: PCS2497 Escola Politécnica USP -- These 8051-based boards are used in digital electronics classes at the university laboratoty.[/caption]
+
+After our conversation, Daniel, the technician, tried to introduce me to a few of the computer engineering professors because he was getting a lot of interest in doing something with emulators in the laboratory classes. And I am also interested in giving a talk there soon about MAME, reverse engineering, technical education and emulation, off course. But the professors were not at their offices, so we agreed to meet again in the near future to talk more about this stuff.
+
+So, I though I had already collected Jackpot for the day and I was considering to go back home. But I remembered professor João José Neto (one of the minds behing the "Patinho Feio", the first computer designed and manufactured in Brazil, in the early 70s) might me at his office, so I though it could be worth to get there and say hello.
+
+[embed]https://www.youtube.com/watch?v=ud43YeQm7Zw[/embed]
+
+And indeed he was there and received me with a big welcoming smile. We spent half an hour talking about old computers, and how things gradually get lost because most people don't care. So I tried to convince him to help me figure out where the remaining old-machines designed by him and his colleagues decades ago might be nowadays, so that we could try to restore them and also to emulate them, for the sake of historical preservation.
+
+When I was leaving the room, after a warm conversation, I mentioned we would gladly digitize old technical materials as well. So, he went back into his office and then back to the front door and deposited in my hands a copy of a technical documentation of the Patinho Feio Assembler. I was shocked. I asked it and he confirmed: it was the single copy of the document he was aware of and it was dated July 1977. And he wanted me to take it away with me for proper digitizing.
+
+<a href="http://mamedev.emulab.it/fsanches/wp-content/uploads/2015/11/pagina_0_capa.png"><img class="aligncenter size-large wp-image-102" src="http://mamedev.emulab.it/fsanches/wp-content/uploads/2015/11/pagina_0_capa-744x1024.png" alt="pagina_0_capa" width="474" height="652" /></a>
+
+I got really happy and honoured with the gesture. But at the same time, I felt fearful of making some silly mistake. So I came back directly to my home planning to digitize it as quickly as possible so that we have a digital backup of this material. My plan is to publish it on the <a href="https://archive.org/">Internet Archive</a> as soon as I get it all scanned. It's a 1cm thick block of pages, all in classic type-writer style. (it does not seem to be the original, but just a copy of it) It will take some time until I get this all done, but I feel that I have the duty to do it correctly. And I am proud of having this opportunity.
+
+Next obvious step would be to implement the CPU emulation module for the Patinho Feio in MAME, but I won't even try that before getting the whole thing scanned and published.
+
+&nbsp;
+
+Happy Hacking!
+
+Felipe "Juca" Sanches]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>97</wp:post_id>
+		<wp:post_date>2015-11-18 20:51:34</wp:post_date>
+		<wp:post_date_gmt>2015-11-18 23:51:34</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>a-pleasant-visit-to-the-university</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="3d-modeling"><![CDATA[3d modeling]]></category>
+		<category domain="category" nicename="3d-models"><![CDATA[3d models]]></category>
+		<category domain="post_tag" nicename="3d-scanning"><![CDATA[3d scanning]]></category>
+		<category domain="post_tag" nicename="8051"><![CDATA[8051]]></category>
+		<category domain="category" nicename="arcade"><![CDATA[arcade]]></category>
+		<category domain="post_tag" nicename="assembler"><![CDATA[assembler]]></category>
+		<category domain="category" nicename="brazilian-hardware"><![CDATA[Brazilian hardware]]></category>
+		<category domain="post_tag" nicename="dump"><![CDATA[dump]]></category>
+		<category domain="post_tag" nicename="emulation"><![CDATA[emulation]]></category>
+		<category domain="post_tag" nicename="firmware"><![CDATA[firmware]]></category>
+		<category domain="post_tag" nicename="patinho-feio"><![CDATA[patinho feio]]></category>
+		<category domain="post_tag" nicename="pcs2497"><![CDATA[pcs2497]]></category>
+		<category domain="post_tag" nicename="poli"><![CDATA[poli]]></category>
+		<category domain="post_tag" nicename="technical-documentation"><![CDATA[technical documentation]]></category>
+		<category domain="category" nicename="update"><![CDATA[update]]></category>
+		<category domain="post_tag" nicename="usp"><![CDATA[usp]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_7d6a98fa635ac2fd8b990bdecae156ab</wp:meta_key>
+			<wp:meta_value><![CDATA[<iframe width="474" height="267" src="https://www.youtube.com/embed/ud43YeQm7Zw?feature=oembed" frameborder="0" allowfullscreen></iframe>]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_time_7d6a98fa635ac2fd8b990bdecae156ab</wp:meta_key>
+			<wp:meta_value><![CDATA[1447888906]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 </channel>
