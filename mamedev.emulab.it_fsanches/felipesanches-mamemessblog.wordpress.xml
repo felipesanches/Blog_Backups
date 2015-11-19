@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.2.5" created="2015-11-19 00:12" -->
+<!-- generator="WordPress/4.2.5" created="2015-11-19 09:10" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Felipe Sanches - MAME/MESS blog</title>
 	<link>http://mamedev.emulab.it/fsanches</link>
 	<description>Emulation as a way of learning hardware design.</description>
-	<pubDate>Thu, 19 Nov 2015 00:12:43 +0000</pubDate>
+	<pubDate>Thu, 19 Nov 2015 09:10:02 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://mamedev.emulab.it/fsanches</wp:base_site_url>
@@ -1173,7 +1173,7 @@ But while there, I ended up talking to the technicians of the digital electronic
 
 These educational boards contained lots of interesting things built around an 8051 CPU. It even has a tiny LCD panel (which surely must be the famous <a href="https://en.wikipedia.org/wiki/Hitachi_HD44780_LCD_controller">Hitachi HD44780</a>, right? :-D). So I dumped the firmware of the board and snapped a picture of it. I may soon write a skeleton driver for it in MAME.
 
-[caption id="attachment_100" align="aligncenter" width="474"]<a href="http://mamedev.emulab.it/fsanches/wp-content/uploads/2015/11/P_20151118_170934.jpg"><img class="size-large wp-image-100" src="http://mamedev.emulab.it/fsanches/wp-content/uploads/2015/11/P_20151118_170934-1024x768.jpg" alt="Jpeg" width="474" height="356" /></a> Educational board: PCS2497 Escola Politécnica USP -- These 8051-based boards are used in digital electronics classes at the university laboratoty.[/caption]
+[caption id="attachment_100" align="aligncenter" width="474"]<a href="http://mamedev.emulab.it/fsanches/wp-content/uploads/2015/11/P_20151118_170934.jpg"><img class="size-large wp-image-100" src="http://mamedev.emulab.it/fsanches/wp-content/uploads/2015/11/P_20151118_170934-1024x768.jpg" alt="Jpeg" width="474" height="356" /></a> Educational board: PCS2497 Escola Politécnica USP -- These 8051-based boards are used in digital electronics classes at the university laboratory.[/caption]
 
 After our conversation, Daniel, the technician, tried to introduce me to a few of the computer engineering professors because he was getting a lot of interest in doing something with emulators in the laboratory classes. And I am also interested in giving a talk there soon about MAME, reverse engineering, technical education and emulation, off course. But the professors were not at their offices, so we agreed to meet again in the near future to talk more about this stuff.
 
