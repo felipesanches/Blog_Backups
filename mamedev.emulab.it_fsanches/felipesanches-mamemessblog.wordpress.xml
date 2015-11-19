@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.2.5" created="2015-11-19 10:22" -->
+<!-- generator="WordPress/4.2.5" created="2015-11-19 18:38" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Felipe Sanches - MAME/MESS blog</title>
 	<link>http://mamedev.emulab.it/fsanches</link>
 	<description>Emulation as a way of learning hardware design.</description>
-	<pubDate>Thu, 19 Nov 2015 10:22:31 +0000</pubDate>
+	<pubDate>Thu, 19 Nov 2015 18:38:57 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://mamedev.emulab.it/fsanches</wp:base_site_url>
@@ -1270,6 +1270,60 @@ Felipe "Juca" Sanches]]></content:encoded>
 			<wp:meta_key>_oembed_time_7d6a98fa635ac2fd8b990bdecae156ab</wp:meta_key>
 			<wp:meta_value><![CDATA[1447888906]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:comment>
+			<wp:comment_id>2050</wp:comment_id>
+			<wp:comment_author><![CDATA[Daniel Rosa Franzini]]></wp:comment_author>
+			<wp:comment_author_email>daniel.franzini@gmail.com</wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP>201.56.227.50</wp:comment_author_IP>
+			<wp:comment_date>2015-11-19 09:47:31</wp:comment_date>
+			<wp:comment_date_gmt>2015-11-19 12:47:31</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Juca
+
+Na biblioteca da Eletrica tem uma seção que ninguém olhava (exceto eu). Eu me lembro de ter muita coisa boa por lá, inclusive databooks, livros, teses e documentos antigos encadernados em bom ou mal estado. Acho que vale uma passada por lá. Fica bem no fundo (ficava pelo menos), do lado direito de quem entra.]]></wp:comment_content>
+			<wp:comment_approved>1</wp:comment_approved>
+			<wp:comment_type></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+			<wp:commentmeta>
+				<wp:meta_key>akismet_history</wp:meta_key>
+				<wp:meta_value><![CDATA[a:3:{s:4:"time";d:1447958283.255506038665771484375;s:5:"event";s:15:"status-approved";s:4:"user";s:6:"Felipe";}]]></wp:meta_value>
+			</wp:commentmeta>
+			<wp:commentmeta>
+				<wp:meta_key>akismet_result</wp:meta_key>
+				<wp:meta_value><![CDATA[false]]></wp:meta_value>
+			</wp:commentmeta>
+			<wp:commentmeta>
+				<wp:meta_key>akismet_history</wp:meta_key>
+				<wp:meta_value><![CDATA[a:2:{s:4:"time";d:1447937251.3087139129638671875;s:5:"event";s:9:"check-ham";}]]></wp:meta_value>
+			</wp:commentmeta>
+		</wp:comment>
+		<wp:comment>
+			<wp:comment_id>2051</wp:comment_id>
+			<wp:comment_author><![CDATA[Daniel Rosa Franzini]]></wp:comment_author>
+			<wp:comment_author_email>daniel.franzini@gmail.com</wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP>201.56.227.50</wp:comment_author_IP>
+			<wp:comment_date>2015-11-19 09:48:50</wp:comment_date>
+			<wp:comment_date_gmt>2015-11-19 12:48:50</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Em tempo, eu me ofereço para te ajudar a digitalizar alguns documentos.]]></wp:comment_content>
+			<wp:comment_approved>1</wp:comment_approved>
+			<wp:comment_type></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+			<wp:commentmeta>
+				<wp:meta_key>akismet_history</wp:meta_key>
+				<wp:meta_value><![CDATA[a:3:{s:4:"time";d:1447958286.125215053558349609375;s:5:"event";s:15:"status-approved";s:4:"user";s:6:"Felipe";}]]></wp:meta_value>
+			</wp:commentmeta>
+			<wp:commentmeta>
+				<wp:meta_key>akismet_result</wp:meta_key>
+				<wp:meta_value><![CDATA[false]]></wp:meta_value>
+			</wp:commentmeta>
+			<wp:commentmeta>
+				<wp:meta_key>akismet_history</wp:meta_key>
+				<wp:meta_value><![CDATA[a:2:{s:4:"time";d:1447937330.032185077667236328125;s:5:"event";s:9:"check-ham";}]]></wp:meta_value>
+			</wp:commentmeta>
+		</wp:comment>
 	</item>
 </channel>
 </rss>
