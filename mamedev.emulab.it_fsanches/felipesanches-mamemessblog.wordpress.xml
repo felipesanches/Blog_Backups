@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.2.7" created="2016-03-07 15:16" -->
+<!-- generator="WordPress/4.2.7" created="2016-04-08 00:14" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Felipe Sanches - MAME/MESS blog</title>
 	<link>http://mamedev.emulab.it/fsanches</link>
 	<description>Emulation as a way of learning hardware design.</description>
-	<pubDate>Mon, 07 Mar 2016 15:16:00 +0000</pubDate>
+	<pubDate>Fri, 08 Apr 2016 00:14:51 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://mamedev.emulab.it/fsanches</wp:base_site_url>
@@ -42,10 +42,14 @@
 	<wp:category><wp:term_id>9</wp:term_id><wp:category_nicename>arcade</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[arcade]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>8</wp:term_id><wp:category_nicename>brazilian-hardware</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Brazilian hardware]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>5</wp:term_id><wp:category_nicename>bytecode</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[bytecode]]></wp:cat_name></wp:category>
+	<wp:category><wp:term_id>22</wp:term_id><wp:category_nicename>capcom</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[CAPCOM]]></wp:cat_name></wp:category>
+	<wp:category><wp:term_id>25</wp:term_id><wp:category_nicename>reverse-engineering</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[reverse engineering]]></wp:cat_name></wp:category>
+	<wp:category><wp:term_id>24</wp:term_id><wp:category_nicename>speech</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[speech]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>3</wp:term_id><wp:category_nicename>tools</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[tools]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>1</wp:term_id><wp:category_nicename>uncategorized</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Uncategorized]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>2</wp:term_id><wp:category_nicename>undumped</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[undumped]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>6</wp:term_id><wp:category_nicename>update</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[update]]></wp:cat_name></wp:category>
+	<wp:category><wp:term_id>23</wp:term_id><wp:category_nicename>video</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[video]]></wp:cat_name></wp:category>
 	<wp:tag><wp:term_id>11</wp:term_id><wp:tag_slug>3d-modeling</wp:tag_slug><wp:tag_name><![CDATA[3d modeling]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>10</wp:term_id><wp:tag_slug>3d-scanning</wp:tag_slug><wp:tag_name><![CDATA[3d scanning]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>16</wp:term_id><wp:tag_slug>8051</wp:tag_slug><wp:tag_name><![CDATA[8051]]></wp:tag_name></wp:tag>
@@ -1179,6 +1183,30 @@ Felipe "Juca" Sanches
 			<wp:meta_value><![CDATA[2]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
+			<wp:comment_id>2404</wp:comment_id>
+			<wp:comment_author><![CDATA[Felipe Sanches]]></wp:comment_author>
+			<wp:comment_author_email>juca@members.fsf.org</wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP>189.102.115.65</wp:comment_author_IP>
+			<wp:comment_date>2016-01-28 23:06:59</wp:comment_date>
+			<wp:comment_date_gmt>2016-01-29 02:06:59</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[I'll probably write a longer blog post about it, but I'd like to point out that recently I worked on an implementation of the Another World VM (a port of Fabien's code) using the MAME emulation infrastructure.
+
+The code is currently hosted at https://github.com/felipesanches/mame/commits/anotherworld but I would love to see it merged into HBMAME at some point in the future.]]></wp:comment_content>
+			<wp:comment_approved>1</wp:comment_approved>
+			<wp:comment_type></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>2</wp:comment_user_id>
+			<wp:commentmeta>
+				<wp:meta_key>akismet_result</wp:meta_key>
+				<wp:meta_value><![CDATA[false]]></wp:meta_value>
+			</wp:commentmeta>
+			<wp:commentmeta>
+				<wp:meta_key>akismet_history</wp:meta_key>
+				<wp:meta_value><![CDATA[a:3:{s:4:"time";d:1454033219.6928250789642333984375;s:5:"event";s:9:"check-ham";s:4:"user";s:6:"Felipe";}]]></wp:meta_value>
+			</wp:commentmeta>
+		</wp:comment>
+		<wp:comment>
 			<wp:comment_id>2195</wp:comment_id>
 			<wp:comment_author><![CDATA[cyx]]></wp:comment_author>
 			<wp:comment_author_email>cyx@users.sourceforge.net</wp:comment_author_email>
@@ -1205,30 +1233,6 @@ In case there is any interest, the "gl" codebase of the raw interpreter has been
 			<wp:commentmeta>
 				<wp:meta_key>akismet_history</wp:meta_key>
 				<wp:meta_value><![CDATA[a:3:{s:4:"time";d:1454032859.172235012054443359375;s:5:"event";s:15:"status-approved";s:4:"user";s:6:"Felipe";}]]></wp:meta_value>
-			</wp:commentmeta>
-		</wp:comment>
-		<wp:comment>
-			<wp:comment_id>2404</wp:comment_id>
-			<wp:comment_author><![CDATA[Felipe Sanches]]></wp:comment_author>
-			<wp:comment_author_email>juca@members.fsf.org</wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
-			<wp:comment_author_IP>189.102.115.65</wp:comment_author_IP>
-			<wp:comment_date>2016-01-28 23:06:59</wp:comment_date>
-			<wp:comment_date_gmt>2016-01-29 02:06:59</wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[I'll probably write a longer blog post about it, but I'd like to point out that recently I worked on an implementation of the Another World VM (a port of Fabien's code) using the MAME emulation infrastructure.
-
-The code is currently hosted at https://github.com/felipesanches/mame/commits/anotherworld but I would love to see it merged into HBMAME at some point in the future.]]></wp:comment_content>
-			<wp:comment_approved>1</wp:comment_approved>
-			<wp:comment_type></wp:comment_type>
-			<wp:comment_parent>0</wp:comment_parent>
-			<wp:comment_user_id>2</wp:comment_user_id>
-			<wp:commentmeta>
-				<wp:meta_key>akismet_result</wp:meta_key>
-				<wp:meta_value><![CDATA[false]]></wp:meta_value>
-			</wp:commentmeta>
-			<wp:commentmeta>
-				<wp:meta_key>akismet_history</wp:meta_key>
-				<wp:meta_value><![CDATA[a:3:{s:4:"time";d:1454033219.6928250789642333984375;s:5:"event";s:9:"check-ham";s:4:"user";s:6:"Felipe";}]]></wp:meta_value>
 			</wp:commentmeta>
 		</wp:comment>
 	</item>
@@ -1464,7 +1468,7 @@ The current state is that 50% of the screen (every odd vertical strip of tiles) 
 
 I was too tired to continue, so I packed things and went home. I'll have to resume the investigation another day. But it sure was fun and I almost got it working perfectly.
 
-[[This is a quick posting. I may tweak in in the future and add photos or other aspects of the ongoing effort. So be sure to revisit it from time to time :-D]]]]></content:encoded>
+<strong>[[ This is a quick posting. I may tweak it in the future and add photos or other aspects of the ongoing effort. So be sure to revisit it from time to time :-D ]]</strong>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>120</wp:post_id>
 		<wp:post_date>2016-03-07 11:47:08</wp:post_date>
@@ -1479,9 +1483,66 @@ I was too tired to continue, so I packed things and went home. I'll have to resu
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="category" nicename="arcade"><![CDATA[arcade]]></category>
+		<category domain="category" nicename="capcom"><![CDATA[CAPCOM]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Hardware reverse engineering insights from the MAME Project</title>
+		<link>http://mamedev.emulab.it/fsanches/2016/04/07/hardware-reverse-engineering-insights-from-the-mame-project/</link>
+		<pubDate>Thu, 07 Apr 2016 20:45:55 +0000</pubDate>
+		<dc:creator><![CDATA[Felipe]]></dc:creator>
+		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=125</guid>
+		<description></description>
+		<content:encoded><![CDATA[This is my presentation at the annual Free Software Foundation meeting (LibrePlanet conference) held at MIT, on March 2016.
+
+[embed]https://media.libreplanet.org/mgoblin_media/media_entries/1429/LP_2016_03_19_Felipe_da_Silva_Sanches_Hardware_Reverse_Engineering_STREAM.webm[/embed]
+
+<strong>Hardware reverse engineering insights from the MAME</strong>
+
+Felipe Correa da Silva Sanches, software freedom activist
+
+The MAME Project's main stated goal is to preserve historical computer hardware. The strategy for achieving that objective is to inspect the devices and then develop emulators for them. While most hardware is undocumented and relies on proprietary firmware, the MAME development community has nurtured strong reverse engineering practices since its origins back in 1997.
+
+The techniques that we need to master in order to develop new emulators include reverse engineering procedures that are also very useful for aiding in the creation of free firmware solutions to replace the non-free blobs used in a broad variety of daily-use devices. These skills are also useful for the development of free drivers for undocumented devices and in the porting of operating systems and BIOSes to new hardware platforms. We need to strengthen a community of skillful hardware reverse engineers so that we can solve the freedom issues denounced by projects such as Linux-Libre and Libreboot.
+
+More info at the <a href="https://media.libreplanet.org/u/libreplanet/m/hardware-reverse-engineering-insights-from-the-mame/">LibrePlanet MediaGoblin</a> instance.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>125</wp:post_id>
+		<wp:post_date>2016-04-07 17:45:55</wp:post_date>
+		<wp:post_date_gmt>2016-04-07 20:45:55</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>hardware-reverse-engineering-insights-from-the-mame-project</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="reverse-engineering"><![CDATA[reverse engineering]]></category>
+		<category domain="category" nicename="speech"><![CDATA[speech]]></category>
+		<category domain="category" nicename="video"><![CDATA[video]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_8b2906fb3c5ab9c2cd1d486f4df24433</wp:meta_key>
+			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>enclosure</wp:meta_key>
+			<wp:meta_value><![CDATA[https://media.libreplanet.org/mgoblin_media/media_entries/1429/LP_2016_03_19_Felipe_da_Silva_Sanches_Hardware_Reverse_Engineering_STREAM.webm
+91512593
+video/webm
+]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[hardware-reverse-engineering-insights-from-the-mame]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 </channel>
