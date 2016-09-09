@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.2.7" created="2016-04-08 00:14" -->
+<!-- generator="WordPress/4.2.10" created="2016-09-09 06:51" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Felipe Sanches - MAME/MESS blog</title>
 	<link>http://mamedev.emulab.it/fsanches</link>
 	<description>Emulation as a way of learning hardware design.</description>
-	<pubDate>Fri, 08 Apr 2016 00:14:51 +0000</pubDate>
+	<pubDate>Fri, 09 Sep 2016 06:51:53 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://mamedev.emulab.it/fsanches</wp:base_site_url>
@@ -43,6 +43,7 @@
 	<wp:category><wp:term_id>8</wp:term_id><wp:category_nicename>brazilian-hardware</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Brazilian hardware]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>5</wp:term_id><wp:category_nicename>bytecode</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[bytecode]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>22</wp:term_id><wp:category_nicename>capcom</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[CAPCOM]]></wp:cat_name></wp:category>
+	<wp:category><wp:term_id>26</wp:term_id><wp:category_nicename>homebrew</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[homebrew]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>25</wp:term_id><wp:category_nicename>reverse-engineering</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[reverse engineering]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>24</wp:term_id><wp:category_nicename>speech</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[speech]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>3</wp:term_id><wp:category_nicename>tools</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[tools]]></wp:cat_name></wp:category>
@@ -64,7 +65,7 @@
 	<wp:tag><wp:term_id>20</wp:term_id><wp:tag_slug>technical-documentation</wp:tag_slug><wp:tag_name><![CDATA[technical documentation]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>13</wp:term_id><wp:tag_slug>usp</wp:tag_slug><wp:tag_name><![CDATA[usp]]></wp:tag_name></wp:tag>
 
-	<generator>http://wordpress.org/?v=4.2.7</generator>
+	<generator>http://wordpress.org/?v=4.2.10</generator>
 
 	<item>
 		<title>Happy Hacking!</title>
@@ -146,138 +147,6 @@ Felipe "Juca" Sanches]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>14</wp:post_id>
 		<wp:post_date>2014-09-28 23:16:14</wp:post_date>
-		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name></wp:post_name>
-		<wp:status>draft</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>TECNBRAS Dot Matrix Display</title>
-		<link>http://mamedev.emulab.it/fsanches/?p=16</link>
-		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
-		<dc:creator><![CDATA[Felipe]]></dc:creator>
-		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=16</guid>
-		<description></description>
-		<content:encoded><![CDATA[* SESC Campinas workshops
-
-* broken dot matrix display]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>16</wp:post_id>
-		<wp:post_date>2014-09-28 23:17:00</wp:post_date>
-		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name></wp:post_name>
-		<wp:status>draft</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>SONY PVE500</title>
-		<link>http://mamedev.emulab.it/fsanches/?p=18</link>
-		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
-		<dc:creator><![CDATA[Felipe]]></dc:creator>
-		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=18</guid>
-		<description></description>
-		<content:encoded><![CDATA[How it surfaced
-
-the TLCS-Z80 chip
-
-the service manual
-
-current pending tasks
-
-&nbsp;]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>18</wp:post_id>
-		<wp:post_date>2014-09-28 23:18:23</wp:post_date>
-		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name></wp:post_name>
-		<wp:status>draft</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Dot matrix printers</title>
-		<link>http://mamedev.emulab.it/fsanches/?p=20</link>
-		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
-		<dc:creator><![CDATA[Felipe]]></dc:creator>
-		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=20</guid>
-		<description></description>
-		<content:encoded><![CDATA[ActionPrinter 2000
-
-EPSON LX-800
-
-Tarrafa Hacker Clube]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>20</wp:post_id>
-		<wp:post_date>2014-09-28 23:19:26</wp:post_date>
-		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name></wp:post_name>
-		<wp:status>draft</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Makerbot Replicator 1 emulation</title>
-		<link>http://mamedev.emulab.it/fsanches/?p=22</link>
-		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
-		<dc:creator><![CDATA[Felipe]]></dc:creator>
-		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=22</guid>
-		<description></description>
-		<content:encoded><![CDATA[open hardware =&gt; pcb schematics
-
-LCD interfacing via shift registers
-
-Arduino bootloader + unimplemented AVR8 instructions
-
-free firmware (as in freedom): Sailfish (aids in emulator implementation)
-
-missing timers in AVR8 &amp; buzzer + stepper motors control
-
-&nbsp;]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>22</wp:post_id>
-		<wp:post_date>2014-09-28 23:21:19</wp:post_date>
 		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
@@ -714,6 +583,130 @@ missing timers in AVR8 &amp; buzzer + stepper motors control
 		</wp:postmeta>
 	</item>
 	<item>
+		<title>RetroCoding Workshops - Oficinas de Retroprogramação</title>
+		<link>http://mamedev.emulab.it/fsanches/2016/09/09/pixotosco-homebrew-on-gunsmoke-pcb/retroprogramacao/</link>
+		<pubDate>Fri, 09 Sep 2016 06:03:52 +0000</pubDate>
+		<dc:creator><![CDATA[Felipe]]></dc:creator>
+		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/wp-content/uploads/2016/09/Retroprogramação.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>131</wp:post_id>
+		<wp:post_date>2016-09-09 03:03:52</wp:post_date>
+		<wp:post_date_gmt>2016-09-09 06:03:52</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>retroprogramacao</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>24</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://mamedev.emulab.it/fsanches/wp-content/uploads/2016/09/Retroprogramação.png</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2016/09/Retroprogramação.png]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1000;s:6:"height";i:334;s:4:"file";s:30:"2016/09/Retroprogramação.png";s:5:"sizes";a:3:{s:9:"thumbnail";a:4:{s:4:"file";s:30:"Retroprogramação-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:30:"Retroprogramação-300x100.png";s:5:"width";i:300;s:6:"height";i:100;s:9:"mime-type";s:9:"image/png";}s:14:"post-thumbnail";a:4:{s:4:"file";s:30:"Retroprogramação-672x334.png";s:5:"width";i:672;s:6:"height";i:334;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>garoa arcade room</title>
+		<link>http://mamedev.emulab.it/fsanches/2016/09/09/pixotosco-homebrew-on-gunsmoke-pcb/garoa_arcade_room/</link>
+		<pubDate>Fri, 09 Sep 2016 06:08:53 +0000</pubDate>
+		<dc:creator><![CDATA[Felipe]]></dc:creator>
+		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/wp-content/uploads/2016/09/Garoa_arcade_room.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>132</wp:post_id>
+		<wp:post_date>2016-09-09 03:08:53</wp:post_date>
+		<wp:post_date_gmt>2016-09-09 06:08:53</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>garoa_arcade_room</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>24</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://mamedev.emulab.it/fsanches/wp-content/uploads/2016/09/Garoa_arcade_room.jpg</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2016/09/Garoa_arcade_room.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:604;s:6:"height";i:453;s:4:"file";s:29:"2016/09/Garoa_arcade_room.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:4:{s:4:"file";s:29:"Garoa_arcade_room-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:29:"Garoa_arcade_room-300x225.jpg";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:29:"Garoa_arcade_room-604x372.jpg";s:5:"width";i:604;s:6:"height";i:372;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Drawing char-tiles on GIMP</title>
+		<link>http://mamedev.emulab.it/fsanches/2016/09/09/pixotosco-homebrew-on-gunsmoke-pcb/pixo-xcf-1-0-rgb-color-3-layers-320x240-gimp_335/</link>
+		<pubDate>Fri, 09 Sep 2016 06:18:41 +0000</pubDate>
+		<dc:creator><![CDATA[Felipe]]></dc:creator>
+		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/wp-content/uploads/2016/09/pixo.xcf-1.0-RGB-color-3-layers-320x240-–-GIMP_335.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>133</wp:post_id>
+		<wp:post_date>2016-09-09 03:18:41</wp:post_date>
+		<wp:post_date_gmt>2016-09-09 06:18:41</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>pixo-xcf-1-0-rgb-color-3-layers-320x240-gimp_335</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>24</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://mamedev.emulab.it/fsanches/wp-content/uploads/2016/09/pixo.xcf-1.0-RGB-color-3-layers-320x240-–-GIMP_335.png</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2016/09/pixo.xcf-1.0-RGB-color-3-layers-320x240-–-GIMP_335.png]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:821;s:6:"height";i:668;s:4:"file";s:64:"2016/09/pixo.xcf-1.0-RGB-color-3-layers-320x240-–-GIMP_335.png";s:5:"sizes";a:4:{s:9:"thumbnail";a:4:{s:4:"file";s:64:"pixo.xcf-1.0-RGB-color-3-layers-320x240-–-GIMP_335-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:64:"pixo.xcf-1.0-RGB-color-3-layers-320x240-–-GIMP_335-300x244.png";s:5:"width";i:300;s:6:"height";i:244;s:9:"mime-type";s:9:"image/png";}s:14:"post-thumbnail";a:4:{s:4:"file";s:64:"pixo.xcf-1.0-RGB-color-3-layers-320x240-–-GIMP_335-672x372.png";s:5:"width";i:672;s:6:"height";i:372;s:9:"mime-type";s:9:"image/png";}s:25:"twentyfourteen-full-width";a:4:{s:4:"file";s:64:"pixo.xcf-1.0-RGB-color-3-layers-320x240-–-GIMP_335-821x576.png";s:5:"width";i:821;s:6:"height";i:576;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>GunSmoke boards</title>
+		<link>http://mamedev.emulab.it/fsanches/2016/09/09/pixotosco-homebrew-on-gunsmoke-pcb/07_gunsmoke_boards/</link>
+		<pubDate>Fri, 09 Sep 2016 06:39:24 +0000</pubDate>
+		<dc:creator><![CDATA[Felipe]]></dc:creator>
+		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/wp-content/uploads/2016/09/07_gunsmoke_boards.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>134</wp:post_id>
+		<wp:post_date>2016-09-09 03:39:24</wp:post_date>
+		<wp:post_date_gmt>2016-09-09 06:39:24</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>07_gunsmoke_boards</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>24</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://mamedev.emulab.it/fsanches/wp-content/uploads/2016/09/07_gunsmoke_boards.jpg</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2016/09/07_gunsmoke_boards.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1280;s:6:"height";i:960;s:4:"file";s:30:"2016/09/07_gunsmoke_boards.jpg";s:5:"sizes";a:5:{s:9:"thumbnail";a:4:{s:4:"file";s:30:"07_gunsmoke_boards-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:30:"07_gunsmoke_boards-300x225.jpg";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:31:"07_gunsmoke_boards-1024x768.jpg";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:30:"07_gunsmoke_boards-672x372.jpg";s:5:"width";i:672;s:6:"height";i:372;s:9:"mime-type";s:10:"image/jpeg";}s:25:"twentyfourteen-full-width";a:4:{s:4:"file";s:31:"07_gunsmoke_boards-1038x576.jpg";s:5:"width";i:1038;s:6:"height";i:576;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title>Thanks, Simone &amp; hap</title>
 		<link>http://mamedev.emulab.it/fsanches/2014/09/16/thanks-simone-hap/</link>
 		<pubDate>Tue, 16 Sep 2014 03:21:09 +0000</pubDate>
@@ -799,16 +792,121 @@ The algorithms for supporting the dumping and programming of the several thousan
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Pixotosco: homebrew on Gunsmoke PCB</title>
-		<link>http://mamedev.emulab.it/fsanches/?p=24</link>
+		<title>TECNBRAS Dot Matrix Display</title>
+		<link>http://mamedev.emulab.it/fsanches/?p=16</link>
 		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[Felipe]]></dc:creator>
-		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=24</guid>
+		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=16</guid>
 		<description></description>
-		<content:encoded><![CDATA[github repository for the pixotosco game]]></content:encoded>
+		<content:encoded><![CDATA[* SESC Campinas workshops
+
+* broken dot matrix display]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>24</wp:post_id>
-		<wp:post_date>2014-09-28 23:24:04</wp:post_date>
+		<wp:post_id>16</wp:post_id>
+		<wp:post_date>2014-09-28 23:17:00</wp:post_date>
+		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name></wp:post_name>
+		<wp:status>draft</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>SONY PVE500</title>
+		<link>http://mamedev.emulab.it/fsanches/?p=18</link>
+		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Felipe]]></dc:creator>
+		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=18</guid>
+		<description></description>
+		<content:encoded><![CDATA[How it surfaced
+
+the TLCS-Z80 chip
+
+the service manual
+
+current pending tasks
+
+&nbsp;]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>18</wp:post_id>
+		<wp:post_date>2014-09-28 23:18:23</wp:post_date>
+		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name></wp:post_name>
+		<wp:status>draft</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Dot matrix printers</title>
+		<link>http://mamedev.emulab.it/fsanches/?p=20</link>
+		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Felipe]]></dc:creator>
+		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=20</guid>
+		<description></description>
+		<content:encoded><![CDATA[ActionPrinter 2000
+
+EPSON LX-800
+
+Tarrafa Hacker Clube]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>20</wp:post_id>
+		<wp:post_date>2014-09-28 23:19:26</wp:post_date>
+		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name></wp:post_name>
+		<wp:status>draft</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Makerbot Replicator 1 emulation</title>
+		<link>http://mamedev.emulab.it/fsanches/?p=22</link>
+		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Felipe]]></dc:creator>
+		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=22</guid>
+		<description></description>
+		<content:encoded><![CDATA[open hardware =&gt; pcb schematics
+
+LCD interfacing via shift registers
+
+Arduino bootloader + unimplemented AVR8 instructions
+
+free firmware (as in freedom): Sailfish (aids in emulator implementation)
+
+missing timers in AVR8 &amp; buzzer + stepper motors control
+
+&nbsp;]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>22</wp:post_id>
+		<wp:post_date>2014-09-28 23:21:19</wp:post_date>
 		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
@@ -1431,10 +1529,112 @@ I got access to a few punched tapes, one of which contained a It is now an offic
 	<li><a href="https://github.com/mamedev/mame/blob/master/src/devices/cpu/patinhofeio/patinho_feio.cpp" target="_blank">CPU emulation</a></li>
 	<li><a href="https://github.com/mamedev/mame/blob/master/src/devices/cpu/patinhofeio/patinho_feio_dasm.cpp" target="_blank">CPU disassembler</a></li>
 </ul>
-&nbsp;]]></content:encoded>
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+
+
+(16:18:06) FSanches: I am learning OpenCV for Android while planning to use it to dump punched tapes with my cellphone camera and a custom image recognition application
+(16:20:00) FSanches: well... that's one of the approaches. The other one would be to build my own tape reader (I actually started that as well, but it seems too painful to build so I thought perhaps a more software-centric approach could be useful for people who are not sillful with building their own electronics projects
+(16:20:31) FSanches: *skillful
+(16:50:33) FSanches: the paper tape that I have access to is in very good condition (even after 40+ years)
+(16:50:48) FSanches: but it is not a binary tape. It is 7bit ASCII source code
+(16:51:15) FSanches: and apparently that's not for the patinho feio, but for the HP2116-B
+(16:51:36) FSanches: the header of the source code mentions that it is a "simulator"
+(16:52:20) FSanches: and the thesis mentions that a register level simulator for the patinho feio was implemented in the HP
+(16:52:37) FSanches: so I think that I have got the source code for an emulator from 1970s 
+(16:54:05) FSanches: also, the tape has a handwritten text that is barely readable, but it seems to say something like "simulator #3 with errors"
+(16:54:23) FSanches: the actual text is "SIM3 C/ 3RROs."
+(16:54:59) FSanches: I wonder if that's leet-speak as well :-P
+(16:58:16) FSanches: krom: I actually already have a partially functioning OpenCV program: https://github.com/felipesanches/PunchedTapeScanner
+(17:03:11) krom: FSanches: looking at that example photo from your PunchedTapeScanner github, I notice it is slightly rotated, e.g not perfectly straight, does OpenCV account for the rotation needed, to read the data correctly?
+(17:03:38) FSanches: yes
+(17:03:58) FSanches: my algorithm detects the angle and does the correct pattern analysis
+(17:04:47) FSanches: I want to adapt it to process a sequence of images from the cellphone camera
+(17:05:11) FSanches: then I can track the movement of the tape in order to stitch together the data
+(17:06:36) FSanches: I have a mockup of a setup in which I can pull the tape gradually
+(17:07:02) FSanches: while the camera is capturing the image from a stand that positions it a few centimeters above the table
+(17:07:32) FSanches: (the stand is actually a pile of books :-P)
+(17:07:49) FSanches: very unreliable, I guess
+(17:07:52) FSanches: but it is a mockup
+(17:09:02) FSanches: oh! the first comment in the BASIC source code says: "Program to simulate a computer in DOS-mode"
+(17:10:12) FSanches: there's also another professor who built a music synth in the mid-70s and connected the synth to the patinho feio computer so that it would work as a sequencer
+(17:10:37) FSanches: http://www.lcs.poli.usp.br/~gstolfi/synthpage2.htm
+(17:23:45) FSanches: http://www.lcs.poli.usp.br/~gstolfi/gus_files/solfegietto.mp3
+(17:14:02) FSanches: there are mp3 files with recovered recordings from the 70s
+(17:16:38) FSanches: http://www.lcs.poli.usp.br/~gstolfi/gus_files/bachianinha_1.mp3
+(17:17:06) FSanches: I'd love to emulate this synth + patinho feio integration in MAME
+(17:17:12) balrog: FSanches: I guess the synth itself is long gone?
+(17:17:29) FSanches: yesterday I sent an email to Guido Stolfi (the professor who built the synth)
+(17:17:43) FSanches: asking for whatever documents / schematics / diagrams / etc
+(17:17:49) FSanches: I did not get a reply yet
+(17:18:50) FSanches: but it just struck me that I may be able to fetch a copy of his 1975 thesis and scan it as well
+(17:19:05) FSanches: all thesis are made available in the university library
+(17:19:10) FSanches: so it is probably still there
+(17:19:24) FSanches: and there may be some useful source code in the document as well
+(17:19:49) FSanches: since sequencers were a new thing back then so it probably made sense to show off this kind of acchievent in the thesis document
+(17:24:13) FSanches: it was a monophonic synth
+(17:24:33) FSanches: so in order to record a song with multiple voices it would run the program in multiple passes
+(17:25:31) FSanches: first recording a melody in the left channel and a 1kHz time-reference in the right channel
+(17:25:35) krom: yep I looked at some of the features, pretty cool, like the 16 switches for wave customization
+(17:26:24) FSanches: then the second pass would use the 1kHz signal to sync the recording tape with the computer running other trackes for recording together with the previously recorded one
+(17:26:49) FSanches: they say that they apparently never got more than 4 passes for a single song
+(17:27:02) FSanches: probably due to added noise after several passes
+(17:32:14) FSanches: https://gist.github.com/felipesanches/5ea45c07bc941d67820b3ccaa517d8d5
+(17:32:38) FSanches: This is what the person who gave me the punched tape told me about it
+(17:32:57) FSanches: (this is my translation into english. He told me that in portuguese)
+(17:33:39) krom: nice one, thanks for translating it, cool info, I wonder if we will have access to all 4 simulators one day
+(17:38:59) FSanches: I think we do have access to them
+(17:39:11) krom: also would be cool to get the tracked synth programs too =D
+(17:39:43) FSanches: it is just a matter of me building the punched tape reading tools
+(17:39:51) krom: nice one =D
+(17:40:00) FSanches: and then I'll be able to dump a whole box of tapes that this guy has got
+(17:40:16) FSanches: or maybe I should rent a real punched tape reader?
+(17:40:23) FSanches: this may be expensive nowadays though
+(17:40:47) krom: great, will be so cool to get the Patinho Feio software archive growing
+(17:50:34) FSanches: also I have to implement the tape loading capability in the current driver
+(17:51:48) FSanches: current driver has got a couple of programs hardcoded in its boot ROM because we lack a proper loader program
+(17:52:16) FSanches: this is one of the missing pieces of the puzzle: the tape loader bootcode
+(17:53:00) FSanches: they had to reinsert it into the machine from time to time when someone made some mistake (it was relatively easy to corrupt the bootcode)
+(17:53:09) krom: ah o.k, would be great to have that... pitty we do not have that
+(17:53:25) krom: I just found this video: https://www.youtube.com/watch?v=wALFrUd6Ttw
+(17:53:37) krom: it explained lots of punched tape stuff to me =D
+(17:53:55) krom: like howto load programs & lead in/lead out on the tape =D
+(17:53:59) FSanches: I told that to professor João José Neto a couple days ago and he said: "we can reimplement it! I kind of remember the byte value sequences by hert. The rest we can reimplement"
+(17:54:18) krom: oh this is great!
+(17:54:20) FSanches: I told him that this would be cheating
+(17:54:25) krom: ah heh!
+(17:54:31) FSanches: but nevertheless... better than nothing
+(17:54:53) krom: it would be very close to the real thing I reckon, closer that a clean room version
+(17:55:00) FSanches: I still hope to find a binary tape with the loader program
+(17:55:17) Zorix2: is the cpu functional?
+(17:55:22) Zorix2: the emulated one
+(17:55:30) krom: yep me too, why is it rare, would this not have been copied many times?
+(17:55:41) krom: the loader program
+(17:56:54) FSanches: krom: presumably they had a piece of paper with the byte sequence placed in the machine panel itself
+(17:56:58) FSanches: but it is not there anymore
+(17:57:08) krom: ah o.k
+(17:57:31) FSanches: some people knew the byte sequences by heart, becasue they used it very often to troubleshoot the computer
+(17:58:14) krom: well I am very happy with 2 people giving the same byte sequence, to be sure it's correct =D
+(17:58:46) krom: but of course would be amazing to have the original
+(17:59:40) FSanches: the JJNeto Thesis has got a reference to a document in its bibliography called "Carregador Relocável para o computador Pato Feio" (Relocatable Loader for the Ugly Duckling Computer) by Mario Tachibana
+(18:00:02) FSanches: and it is described as an "internal publication of the Digital Sistems Laboratory"
+(18:00:05) FSanches: 1974
+(18:01:37) FSanches: being an "internal publication" means it was probably an educational leaflet for the students which almost never gets preserved for posterity as an item in the school library index
+(18:03:17) krom: interesting stuff
+(18:03:38) FSanches: there are at least a couple other thesis from other professors that may contain technical info and maybe even assembly code for this computer
+(18:04:44) FSanches: the musical synth thesis by Guido Stolfi 1975 and another one called "Software for a minicomputer" by Benício José de Souza, (circa 1975)
+(18:05:18) FSanches: I'll go hunt these next week
+(18:05:21) FSanches: at the library
+(18:08:22) FSanches: unfortunately I'll need help from my professor to fetch these documents for scanning, because I can't do it myself as I am not a student there anymore
+
+]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>117</wp:post_id>
-		<wp:post_date>2016-01-28 23:57:12</wp:post_date>
+		<wp:post_date>2016-04-13 18:39:41</wp:post_date>
 		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
@@ -1487,6 +1687,82 @@ I was too tired to continue, so I packed things and went home. I'll have to resu
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Pixotosco: homebrew on Gunsmoke PCB</title>
+		<link>http://mamedev.emulab.it/fsanches/2016/09/09/pixotosco-homebrew-on-gunsmoke-pcb/</link>
+		<pubDate>Fri, 09 Sep 2016 06:42:44 +0000</pubDate>
+		<dc:creator><![CDATA[Felipe]]></dc:creator>
+		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=24</guid>
+		<description></description>
+		<content:encoded><![CDATA[Back in 2014, during approximately 6 months I organized a weekly meeting at the local hackerspace (<a href="https://garoa.net.br/">Garoa Hacker Clube</a>) called Retro-coding Workshops - in Brazilian Portuguese, <a href="https://garoa.net.br/wiki/Retroprograma%C3%A7%C3%A3o">"Oficinas de Retroprogramação"</a>. It all started when I decided to dedicate some ammount of time each week to study reverse engineering of digital electronics devices. And I decided to do it at the hackerspace instead of at my home, because if anyone got interested in learning this kind of stuff, it would be a good opportunity of sharing the knowledge. And if no-one showed up, I would be dealing with the subject anyway. One or two people actually got interested and started to show up weekly for the workshop and we got a good vibe and the workshops lasted several months!
+
+<a href="http://mamedev.emulab.it/fsanches/wp-content/uploads/2016/09/Retroprogramação.png"><img class="aligncenter wp-image-131" src="http://mamedev.emulab.it/fsanches/wp-content/uploads/2016/09/Retroprogramação-300x100.png" alt="RetroCoding Workshops - Oficinas de Retroprogramação" width="500" height="167" /></a>
+
+Naturally, MAME (and back then MESS) was a recurring topic on those workshops, both as a tool and also as an educational asset. The source code of these emulators are effectively unofficial documentation of the inner workings of the emulated devices (both arcade games and also all sorts of other electronic equipment) and this enables a programmer to learn how to develop software targeting those specific boards.
+
+As I wanted to learn more about digital electronics design and emulation techniques, I decided to buy an arcade board which already had good emulation in MAME. So I ordered on MercadoLivre (a website that's similar to eBay) a <a href="http://www.arcade-museum.com/game_detail.php?game_id=8042">1985 CAPCOM GunSmoke</a> arcade board.
+
+By reading the GunSmoke <a href="https://github.com/mamedev/mame/blob/6711db7107329da894754887ec4ab426945455cb/src/mame/drivers/gunsmoke.cpp">driver source code</a> while simultaneously inspecting the PCB circuits with a multimeter's continuity test mode I was able to understand both the TTL logic circuitry as well as the emulation framework employed by MAME. And with that I also grasped how one was supposed to code a game targeting that specific board.
+
+In order to demonstrate that I had understood at least the basics of how it worked I decided to implement a proof-of-concept. I wrote a tiny (and incomplete) "snake" clone but using a pixelated alligator as the game character.
+
+<a href="http://mamedev.emulab.it/fsanches/wp-content/uploads/2016/09/pixo.xcf-1.0-RGB-color-3-layers-320x240-–-GIMP_335.png"><img class="aligncenter  wp-image-133" src="http://mamedev.emulab.it/fsanches/wp-content/uploads/2016/09/pixo.xcf-1.0-RGB-color-3-layers-320x240-–-GIMP_335-300x244.png" alt="Drawing char-tiles on GIMP" width="470" height="382" /></a>
+
+Pixotosco is a character created by the Brazilian grafitti artist <a href="http://www.tonydemarco.com.br/portfolio/">Tony de Marco</a>, who's also a close friend and a mamber of the hackerspace. One can find <a href="https://www.flickr.com/photos/tonydemarco/sets/1095782/">Pixotosco in many walls of São Paulo</a>, Brazil. It's sort of an alligator with a very long and pixelated body. It's made of rectangular shapes that reminds us of pixels, but it's actually curvy with its body swinging along the walls.
+
+I recorded a video of the proof of concept and published it on YouTube. Bear in mind that this is really just a proof-of-concept and probably will never really become a full game.
+
+There's no collision detection, so the alligator can safely cross its own tail. It can even walk past screen borders! When moving to the top, it shows up in the bottom, which reflects the video memory layout and reminds of the fact that the monitor is in a 90 degrees orientation with the scanlines (and video memory addressing) along vertical lines.
+
+https://www.youtube.com/watch?v=jGZchmwxTrA
+
+Another glitch can be seen when the alligator moves to the right, effectively trying to draw chars outside of the char-tile RAM region. The next region of video RAM is dedicated to per-char palette selection. The side effect is that we see the alligator tail changing color, but also some garbage showing up in some places. The reason for that is because the clean screen routine does not really clean the garbage, but only selects a fully transparent palette for all chars on the screen. Perhaps I should have implemented it differently. But then I would not have had the opportunity of explain this here... ;-)
+
+<a href="http://mamedev.emulab.it/fsanches/wp-content/uploads/2016/09/07_gunsmoke_boards.jpg"><img class="aligncenter size-large wp-image-134" src="http://mamedev.emulab.it/fsanches/wp-content/uploads/2016/09/07_gunsmoke_boards-1024x768.jpg" alt="GunSmoke boards" width="474" height="356" /></a>
+
+Main source code is written in C and cross-compiled targeting the Zilog Z80 CPU (a classic from the 80s). The bootloader had to be entirely written in Z80 assembly language, but it is a rather short and simple piece of code that only serves the purpose of setting up a minimal C runtime for the rest of the code. All graphics assets were drawn on GIMP and automatically converted to the specific char-tile data format used by the video circuitry of this PCB. The image data conversion is actually performed by a helper tool that I implemented in C. There's also the need to generate palette-ROM binaries with the colors we want the images to be displayed with. The several binary files that are output by the build system (with a nice Makefile) are loaded into MAME where I can test it and validate if it's looking and playing good.
+
+Once I got it working on the emulator, I used my <a href="http://mamedev.emulab.it/fsanches/2014/10/14/dumping-gear-tl866cs/">universal programmer</a> and burned the data into actual EPROM chips and placed them in the original arcade board. In the mean time I bought myself an arcade cabinet and was able to play my proof-of-concept in the original GunSmoke board. It was a pretty exciting moment!
+
+<a href="http://mamedev.emulab.it/fsanches/wp-content/uploads/2016/09/Garoa_arcade_room.jpg"><img class="aligncenter size-full wp-image-132" src="http://mamedev.emulab.it/fsanches/wp-content/uploads/2016/09/Garoa_arcade_room.jpg" alt="garoa arcade room" width="604" height="453" /></a>
+
+All of the source code is published on <a href="https://github.com/garoa/GunSmoke/tree/master/homebrew/Pixo">this github repo</a>.
+
+Happy Hacking,
+
+Felipe "Juca" Sanches]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>24</wp:post_id>
+		<wp:post_date>2016-09-09 03:42:44</wp:post_date>
+		<wp:post_date_gmt>2016-09-09 06:42:44</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>pixotosco-homebrew-on-gunsmoke-pcb</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="arcade"><![CDATA[arcade]]></category>
+		<category domain="category" nicename="capcom"><![CDATA[CAPCOM]]></category>
+		<category domain="category" nicename="homebrew"><![CDATA[homebrew]]></category>
+		<category domain="category" nicename="reverse-engineering"><![CDATA[reverse engineering]]></category>
+		<category domain="category" nicename="tools"><![CDATA[tools]]></category>
+		<category domain="category" nicename="video"><![CDATA[video]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_2b5468d307f6c2f5552e84e1bd8b4e74</wp:meta_key>
+			<wp:meta_value><![CDATA[<iframe width="474" height="267" src="https://www.youtube.com/embed/jGZchmwxTrA?feature=oembed" frameborder="0" allowfullscreen></iframe>]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_time_2b5468d307f6c2f5552e84e1bd8b4e74</wp:meta_key>
+			<wp:meta_value><![CDATA[1473399993]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
