@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.2.10" created="2016-09-09 06:51" -->
+<!-- generator="WordPress/4.2.10" created="2016-09-10 17:01" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Felipe Sanches - MAME/MESS blog</title>
 	<link>http://mamedev.emulab.it/fsanches</link>
 	<description>Emulation as a way of learning hardware design.</description>
-	<pubDate>Fri, 09 Sep 2016 06:51:53 +0000</pubDate>
+	<pubDate>Sat, 10 Sep 2016 17:01:53 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://mamedev.emulab.it/fsanches</wp:base_site_url>
@@ -1696,7 +1696,7 @@ I was too tired to continue, so I packed things and went home. I'll have to resu
 		<dc:creator><![CDATA[Felipe]]></dc:creator>
 		<guid isPermaLink="false">http://mamedev.emulab.it/fsanches/?p=24</guid>
 		<description></description>
-		<content:encoded><![CDATA[Back in 2014, during approximately 6 months I organized a weekly meeting at the local hackerspace (<a href="https://garoa.net.br/">Garoa Hacker Clube</a>) called Retro-coding Workshops - in Brazilian Portuguese, <a href="https://garoa.net.br/wiki/Retroprograma%C3%A7%C3%A3o">"Oficinas de Retroprogramação"</a>. It all started when I decided to dedicate some ammount of time each week to study reverse engineering of digital electronics devices. And I decided to do it at the hackerspace instead of at my home, because if anyone got interested in learning this kind of stuff, it would be a good opportunity of sharing the knowledge. And if no-one showed up, I would be dealing with the subject anyway. One or two people actually got interested and started to show up weekly for the workshop and we got a good vibe and the workshops lasted several months!
+		<content:encoded><![CDATA[Back in 2013, for approximately 6 months I organized weekly meetings at the local hackerspace (<a href="https://garoa.net.br/">Garoa Hacker Clube</a>) called Retro-coding Workshops - in Brazilian Portuguese, <a href="https://garoa.net.br/wiki/Retroprograma%C3%A7%C3%A3o">"Oficinas de Retroprogramação"</a>. It all started when I decided to dedicate some ammount of time each week to study reverse engineering of digital electronics devices. And I decided to do it at the hackerspace instead of at my home, because if anyone got interested in learning this kind of stuff, it would be a good opportunity of sharing the knowledge. And if no-one showed up, I would be dealing with the subject anyway. One or two people actually got interested and started to show up weekly for the workshop and we got a good vibe and the workshops lasted several months!
 
 <a href="http://mamedev.emulab.it/fsanches/wp-content/uploads/2016/09/Retroprogramação.png"><img class="aligncenter wp-image-131" src="http://mamedev.emulab.it/fsanches/wp-content/uploads/2016/09/Retroprogramação-300x100.png" alt="RetroCoding Workshops - Oficinas de Retroprogramação" width="500" height="167" /></a>
 
