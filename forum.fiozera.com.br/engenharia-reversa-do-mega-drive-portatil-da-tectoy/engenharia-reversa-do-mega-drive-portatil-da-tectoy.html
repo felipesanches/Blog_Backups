@@ -1,0 +1,100 @@
+Recentemente, por conta das notícias sobre o novo Mega Drive que a TecToy vai lançar no Brasil, acabei descobrindo a existência de um produto anterior, lançado na década passada: o MDPLAY. Trata-se de uma versão portátil do Mega Drive que, além de já vir com alguns jogos na memória interna, permite também carregar jogos a partir de ROMs salvas em um cartão SD. E a tela é um LCD colorido de 320x240 pixels.
+
+<img src='/uploads/default/original/1X/643f31870b74794b173e91fa786f62140fa67f8a.jpg'>
+
+Fiquei empolgado com a possibilidade de usar o cartão SD para carregar jogos, pois isso facilitaria a criação de jogos homebrew sem precisar usar um cartucho de desenvolvimento (everdrive) ou ter que gravar EPROMs. Vi alguns vídeos no YouTube e notei que o portátil possui um menu de seleção de jogos e logo minha cabeça já começou a rodopiar tentando entender se o menu também é um programa rodando na CPU do megadrive (Motorola 68000) ou se seria feito de alguma outra forma.
+
+Depois de muito buscar, descobri que existem muitos consoles como esse da TecToy sendo vendidos com as mais diversas marcas ao redor do mundo. Aparentemente alguém projetou e fabricou o sisteminha na Ásia e várias outras empresas meramente "empacotaram" o produto com seu branding local. Por dentro todos esses aparelhos são muito parecidos entre si:
+
+<img src="/uploads/default/original/1X/0985210bac6169fd9049c4a99c11cb320b2cb9dc.jpg" width="690" height="393">
+
+Minha meta inicial era conseguir um dump da ROM interna do console para eu poder analizar o arquivo binário. Como não achei nada na internet, resolvi comprar o meu próprio MDPLAY no Mercado Livre. Mas enquanto o produto não chegava, eu acabei achando um fórum gringo onde um cara dizia ter feito o dump de um aparelho similar chamado DCAT16:
+
+http://gendev.spritesmind.net/forum/viewtopic.php?t=2460
+
+Uma informação curiosa dessa postagem foi o fato da ROM extraída funcionar parcialmente em emuladores. Fiz o download do arquivo e testei eu mesmo no MAME. E, de fato, consigo ouvir música e quando pressiono os botões, percebo efeitos sonoros. A tela, entretanto, permanece toda preta, exceto em raros momentos em que pode-se ver alguns bloquinhos coloridos piscando, mas com os gráficos completamente corrompidos. Não dá pra identificar nenhum elemento do jogo no MAME.
+
+Então a minha conclusão foi de que a implementação do chip de vídeo do MDPLAY é retro-compatível com o MegaDrive original, mas inclui um modo de vídeo adicional com algum tipo de vantagem em relação ao legado. Imagino que tenham criado isso para poderem ter uma maior profundidade de bits na paleta de cores e, com isso, implementar um menu de seleção "mais bonito" pros critério de qualidade dos usuários de hoje em dia. :smiley:
+
+Bem... parece que arranjei mais uma sarna pra me coçar! Alguém (eu?) precisa implementar suporte a esse novo modo de vídeo no MAME para que o MDPLAY possa ser emulado corretamente! A seguir vou mostrar o passo a passo da minha abordagem para esse desafio.
+
+<img src='/uploads/default/original/1X/c02b087154a71284572b8fb91c17fe69b98ad2c9.jpg'>
+
+Pra começo de conversa, se eu quero entender como funciona o novo modo de vídeo, eu preciso antes entender como se programa o vídeo de um megadrive tradicional. Imagino que qualquer coisa nova deve herdar diversas características similares em relação ao que veio antes. Dito isso, comecei a estudar o VDP (video display processor) do Mega. Tem um documento muito bom sobre isso aqui:
+
+http://md.squee.co/VDP
+
+Um conceito fundamental sobre como funciona o vídeo do Megadrive é o fato das imagens de fundo serem montadas por meio de um arranjo de "tiles" (blocos) de 8x8 pixels cada. Então, como a tela tem resolução 320x240, isso significa que ela é formada por 30 faixas de 40 blocos cada. Ou seja, na horizontal, 40 blocos de 8 pixels de largura formam os 40*8 = 320 pixels de largura da tela. O mesmo raciocínio pode ser feito na vertical, onde 30 blocos de 8 pixels de altura compõem as 30*8=240 linhas da tela.
+
+Então existe uma região da memória RAM de vídeo (VRAM) onde são armazenados os desenhos de cada um dos bloquinhos disponíveis. E numa outra região da VRAM é escrito o "tilemap", ou seja, uma sequencia de números selecionando qual bloquinho é exibido em cada parte da tela. Então efetivamente esse tipo de abordagem se assemelha muito a um quebra-cabeças, onde juntamos peças para formar uma imagem. Com a diferença que podemos usar várias vezes a mesma peça, caso a imagem que queremos exibir contenha repetições. E está justamente aí a razão pela qual se usava esse tipo de técnica em muitos computadores antigos, consoles de video game e máquinas de fliperama: com isso é possível economizar espaço em memória (que era um item escasso e caro naquela época).
+
+Além disso, no MegaDrive original os desenhos de cada um dos tiles ocupavam 32 bytes. A razão para tal é que cara pixel usava 4 bits para determinar sua cor. Um bloco de 8x8 pixels tem um total de 64 pixels e, portanto, 64*4 = 256 bits de informação, o que corresponde a 256/8 = 32 bytes. Com 4 bits por pixel (4 bpp) temos 16 combinações possíveis (2 elevado à 4ª potência dá 16). Isso significa que cada pixel podia ter uma de 16 opções de cores de uma paleta selecionada de uma outra forma que não vem ao caso aqui. O importante é não esquecer que cada 32 bytes de uma certa região da memória RAM de vídeo, corresponde ao desenho de um bloquinho, e que cada bloquinho pode usar 16 cores.
+
+<img src='/uploads/default/original/1X/db0ef991feba50de416f5399c1aa93f3568e1529.gif'>
+
+Bom... e como é que funciona no modo de video novo do MDPLAY? Bem... a priori eu não sei, mas vamos descobrir na marra!
+
+Pouca gente sabe, mas o MAME oferece um debugger que permite inspecionar a execução dos jogos passo-a-passo, na linguagem assembly dos processadores usados em cada máquina. Além disso, permite também o registro de breakpoints (endereços em que a execução é automaticamente interrompida para analizarmos algo de interesse), watchpoints (monitoramento de acessos a endereços específicos de memória) e várias outras coisas super úteis como as janelas de visualização do conteúdo da memória (é como um editor hexadecimal, mas o conteúdo pode ser observado dinamicamente conforme o programa está sendo executado no emulador).
+
+<img src="/uploads/default/original/1X/3b34586ea058f5f8101cba13a431a469c3e60847.png" width="690" height="431">
+
+Usando essas ferramentas eu pude notar que logo no início do programa, o jogo configura algumas transferências de dados via DMA (direct memory access). Para ver exatamente em quais endereços os dados estavam sendo escritos eu fiz uma pequena modificação no código-fonte do MAME, para ele imprimir no console de texto um log contendo: (1) tamanho do bloco de dados a serem transferidos via DMA e (2) endereço de destino onde os dados serão armazenados.
+
+E o resultado foi muito bom: observei 30 transferências com 40 entradas de dados cada. De imediato saquei que se tratam dos 40x30 blocos de uma tela! Observando os valores na janela de inspeção de conteúdo da VRAM, notei que eles ocupam a região de memória começando n oendereço 0x4000, mas também há valores não-nulos em outras regiões da memória. Oras... alguma dessas outras regiões deve corresponder aos desenhos dos bloquinhos. Em particular, a partir do endereço 0x0000 da VRAM, temos uma sequencia de valores um tanto peculiar (e que também foram armazenados alí logo no começo do programa via DMA):
+
+<img src="/uploads/default/original/1X/30c0b851fbc70eaee143c781e291018308c52c97.png" width="690" height="408">
+
+As 3 primeiras linhas dessa janela correspondem a 48 bytes com o valor zero (00). Minha intuição diz que isso tudo corresponde ao desenho do primeiro bloquinho (bloco #0) que deve ser inteiro preto e deve ser usado para não mostrar nada na tela em determinadas situações. Se forem realmente 48 bytes por bloco, então isso significa um total de 48*8 = 384 bits. E com 8*8 pixels, temos 384/64 = 6 bits por pixel. (e já adianto que essa interpretação se mostrou correta no fim das contas!)
+
+Agora resta a questão: como estão organizados esses dados? A forma óbvia e canônica seria armazenar a cor do pixel x:0, y:0 nos primeiros 6 bits (ou seja, 75% do primeiro byte) e então o segundo pixel teria sua cor armazenada nos 2 bits restantes do primeiro byte e em metade (4 bits) do segundo byte. E assim por diante. Fiz um programinha em python para interpretar essa sequência de valores da VRAM segundo esse critério de decodificação, mas não resultou em nada que parecesse fazer sentido visualmente. Concluí que os dados devem estar embaralhados.
+
+Para confirmar (ou refutar) a minha teoria de que são usados 48 bytes por tile, eu resolvi partir para uma inspeção do comportamento do dispositivo de verdade. Eu precisaria alterar a ROM para enviar dados diferentes para a VRAM e então observar o que aparece na tela e tentar concluir qual é a relação entre os dados e os pixels exibidos. Usando um editor hexadecimal (o hexdump, via linha de comando) eu consegui achar a sequencia "10 81 41 08 0C 30 ..." armazenada a partir do endereço 0x8d9e6 da ROM:
+
+<img src="/uploads/default/original/1X/9c6702c3bbb36e603d3449954fb9ad9d93bc8709.png" width="690" height="216">
+
+Os 48 bytes nulos correspondem a um bloco preto e os primeiro 48 bytes não nulos são o desenho do bloco #1. Escrevi um pequeno programa em python para escrever zero em todo o bloco #1, carreguei a ROM resultante no MDPLAY por meio do cartão SD e o resultado foi:
+
+<img src="/uploads/default/original/1X/6cd4efe019762e2fec4a87cb24bcb5abf0643cd7.jpg" width="666" height="500">
+
+Toda essa região preta corresponde a múltiplos usos do tile #1. Provavelmente por que é toda a região de céu limpo (sem nuvens) na imagem. Restaurei a ROM original e repeti o procedimento sobrescrevendo então os dados do bloco #2, e o resultado foi:
+
+<img src="/uploads/default/original/1X/4fc6d67314baac5f03c5e70f4fb5f80623418f27.png" width="690" height="473">
+
+Mais interessante! Parece que esse pedaço da imagem tem um padrão de cores único. O tile #2 é usado apenas nessa posição. Esse parace ser nosso melhor setup para começar a tentar desvendar como está organizada a estrutura de dados da imagem de um bloquinho.
+
+Escrevi um outro script python que preenche o bloco com valor zero, exceto em um bit especifico em cada linha.
+
+<img src="/uploads/default/original/1X/2dda70394c29d975ae6c4093dab9d7873c02a493.png" width="543" height="344">
+
+Foram geradas 6 ROMs. Cada ROM posiciona bits 1 em cada uma dos 6 bytes de uma linha. Usei um microscópio-USB para ver em detalhes o resultado de cada um desses blocos de dados. Esse é o meu setup:
+
+<img src="/uploads/default/original/1X/6291c74b68b06ed7c32ae0fee28f2488f5d5fbec.jpg" width="666" height="500">
+
+Seguem abaixo cada um dos blocos de dados das 6 ROMs de teste e as fotografias correspondentes:
+
+<img src="/uploads/default/original/1X/3572ca1912873bbbc29648d93f322021fb5f5052.png" width="415" height="500">
+
+Com base nesses testes é obvio que (não, não é óbvio! Eu levei umas 3 horas pra entender esse negócio!) o layout dos blocos segue esse padrão:
+
+<img src="/uploads/default/original/1X/3d41200ee5b0202a553a9278419b492a72593e6f.png" width="690" height="476">
+
+Com isso consegui escrever um outro script python que desenha um triângulo e um padrão xadrez no bloquinho usando duas cores (azul celeste e vermelho escuro):
+
+<img src="/uploads/default/original/1X/e681fab243ea2d861e2434864edac8305f03b1c1.png" width="320" height="268">
+
+<img src="/uploads/default/original/1X/0d2d7ce06e8be22037a3f91a936d8231401b7279.png" width="284" height="223">
+
+A parte relevante desse código é a função patch_rom:
+
+<img src="/uploads/default/original/1X/f4ab6663346ef91d1be9974c9ae6cefea49d56ef.png" width="449" height="241">
+
+E o bloco que de fato codifica os valores dos pixels:
+
+<img src="/uploads/default/original/1X/16ab3343d6db61755e5dc6f687942db930304fee.png" width="436" height="500">
+
+O próximo passo foi fazer um decoder para visualizar no PC os desenhos dos bloquinhos. E depois descobrir onde na ROM fica o tile map e também fazer um visualizador para a imagem completa. Mas isso fica pruma próxima postagem, por que ainda não está pronto. Deixo aqui apenas um teaser de como está (pela metade) o decodificador de frame completo. Note que a paleta de cores está incorreta:
+
+<img src="/uploads/default/original/1X/5b678e53acbf9f8938ff7dbf09469efda7ef7af9.png" width="633" height="500">
+
+Happy Hacking,
+Felipe "Juca" Sanches
