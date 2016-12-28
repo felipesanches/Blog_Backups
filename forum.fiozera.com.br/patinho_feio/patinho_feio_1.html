@@ -1,0 +1,74 @@
+<img src="/uploads/default/original/1X/cc605824c8747c7e6c2d7f4e90f4c2409a328f42.jpg" width="666" height="500">
+
+Eu já contei um pedacinho minúsculo dessa história em uma postagem do meu blog (em inglês) em:
+
+http://mamedev.emulab.it/fsanches/2015/11/18/a-pleasant-visit-to-the-university/
+
+Mas aqui eu vou entrar em mais detalhes e tentar contar tudo o que aconteceu até agora e, possivelmente, as atualizações dos próximos passos desse trabalho de resgate histórico do computador Patinho Feio, que foi projetado na USP em 1971.
+
+Em setembro de 2015 eu estava muito interessado em escanear gabinetes de arcades e consoles de video-game e, por causa disso, fui à USP tentar falar com alguém do LSI ou da Caverna Digital, em busca de um scanner 3D. Não achei a professora Roseli de Deus Lopes (do LSI) nessa visita, mas acabei me encontrando com o professor João José Neto.
+
+<img src='/uploads/default/original/1X/9d7f6eebad3503d47763a68424042b7af0b136f2.jpg'>
+
+Nessa conversa com o professor JJNeto, comentei que já tenho trabalhado há alguns anos voluntariamente em iniciativas de preservação histórica de computadores e video-games (e, na realidade, qualquer equipamento digital) por meio de técnicas de emulação e que, com esse objetivo, tenho contribuído com a implementação de emuladores para o Projeto MAME.
+
+Cheguei a mostrar ao professor alguns dos meus drivers no MAME e ele, em retribuição, colocou em minhas mãos um documento de 1977 chamado "Montador do 'Patinho Feio'". Trata-se de um manual de uso do software montador (assembler) para a linguagem de máquina da CPU do computador Patinho Feio. Como supostamente não havia conhecimento da existência de outra cópia desse documento, eu fiquei bastante preocupado, pois era um documento de quase 40 anos que tinha sido mantido em ótimas condições de preservação até então. E agora essa raridade estava sendo colocada em minhas mãos estabanadas...
+
+Eu fiquei apavorado! Corri pra casa com todo o cuidado para proteger o documento e, de imediato, dei início ao processo de digitalização assim que cheguei em casa. Como não cabia no meu scanner (as folhas eram um pouquinho maiores que o tamanho padrão A4) eu simplesmente tirei fotos de cada uma das páginas usando o meu celular. Guardei todas as fotos em alta resolução em um repositório no GitHub, e depois fiz um pequeno script para reduzir e comprimir as páginas e em seguida concatená-las em um PDF de qualidade e tamanho razoáveis. O PDF final foi publicado no Internet Archive e pode ser visto aqui:
+
+https://archive.org/stream/Montador_do_Patinho_Feio__Julho1977/PatinhoFeio
+
+Em seguida, estudei o documento inteiro e notei que com a informação disponível alí seria possível implementar um emulador para a CPU do Patinho Feio. Para testar o emulador, entretanto, eu precisaria ter em mãos programas para esse computador. E até então a única coisa que eu tinha acesso era um pequeno "Hello World" cujo código de máquina era legível na fotografia de um pequeno trecho de fita perfurada que aparecia numa imagem do próprio documento.
+
+<img src="/uploads/default/original/1X/a311f1a4b130edd95b55264650ed8a14b6366725.png" width="429" height="500">
+
+Transcrevi manualmente cada um dos bytes desta fita da imagem, gerando um arquivo binário que pudesse ser carregado no meu emulador e, em seguida, usei esse código para depurar a minha implementação. Com isso, consegui fazer o programinha funcionar no emulador e ver sendo exibidos na tela os caracteres que originalmente eram enviados à teletype - uma máquina de escrever com interface serial para comunicação com o computador. Pausadamente, foram sendo enviados um a um os caracteres: **P - A - T - I - N - H - O - [espaço] - F - E - I - O** seguidos de um comando de **linefeed** (alimentação de uma linha de papel) e depois um **carriage return** (retorno do carro de impressão).
+
+<img src="/uploads/default/original/1X/48f573cc34e51481152e0bc35ce04445f6c6f5dc.png" width="344" height="110">
+
+Usando uma tecnologia chamada emscripten, fiz uma compilação deste driver do MAME para javascript, o que permite rodar o emulador direto no browser. Na época eu montei uma página web para hospedar essa demonstração. Veja aqui:
+
+http://felipesanches.github.io/emuladores/patinho.html
+
+Fui mais uma vez à Poli-USP algum tempo depois e, junto com o Armando Neto (amigo nosso aqui do Fiozeira!), tiramos algumas fotografias do computador de verdade, que está hoje em dia exposto no prédio da administração / diretoria da Escola Politécnica.
+
+Com base nessas fotografias eu redesenhei o painel completo usando o programa Inkscape (um software livre para desenhos vetoriais) e, com o vetor da arte do painel em mãos, dei início à construção de uma réplica do Patinho Feio, encomendando o corte a laser e a impressão de um adesivo com a arte em uma gráfica rápida perto da minha casa.
+
+Na imagem abaixo se vê a vetorização da arte do painel frontal:
+
+<img src="/uploads/default/original/1X/a74e45b8a819d19004cdb1bed932caf9cf284823.png" width="311" height="500">
+
+O vetor correspondente está disponível [aqui](https://github.com/felipesanches/PatinhoFeio/blob/master/SVG/Painel_Frontal_PatinhoFeio.svg).
+
+Comprei LEDs vermelhos, botões e chaves na Santa Ifigênia e coloquei no vetor de corte a laser as furações adequadas:
+
+<img src="/uploads/default/original/1X/115f4d05fb083d6c540655f1ad9d6e48d97ae585.jpg" width="666" height="500">
+
+Depois que terminei de construir a parte física do painel, levei para o professor JJNeto ver e parece que ele gostou:
+
+<img src="/uploads/default/original/1X/96ab9947e9a3094f4c70d81e8dfad6248ef95a79.jpg" width="281" height="500">
+
+Depois adicionei uma moldura de quadro preta e hoje em dia o painel tem esse aspecto visual:
+
+<img src="/uploads/default/original/1X/ca21be1b9ce351edeb4d303e85f30bbe6fb2e5e2.jpg" width="375" height="500">
+
+Estou gradualmente coletando também autógrafos no lado de trás do painel, de professores que, na década de 70, participaram do desenvolvimento do projeto na USP:
+
+<img src="/uploads/default/original/1X/8c38b829c47a5964edd3795b891b708592493f1a.png" width="602" height="499">
+
+
+Em resposta à minha postagem original no blog sobre a descoberta do manual do montador, um amigo fez o seguinte comentário:
+
+<img src="/uploads/default/original/1X/9b243d766f40e477b4736201a334d37b060d6544.png" width="528" height="310">
+
+Não consigo me lembrar se foi ou não por conta disso que parti para o próximo passo nesse projeto. Mas o fato é que eu fui até a biblioteca e, com a ajuda do prof JJNeto que usou a carteirinha dele para empréstimo de livros pois a minha já não é mais válida desde quando saí da USP, retiramos algumas teses relativas ao tema. Ao longo dos meses seguintes eu fui aos poucos escaneando cada uma das teses de mestrado e de doutorado que tinham alguma ligação com o projeto do Patinho Feio. São cerca de 15 documentos (não lembro de cabeça a conta exata). Cada um deles teve suas páginas escaneadas em alta resolução e publicadas em repositórios individuais na minha conta do GitHub, enquanto os PDFs finais foram agrupados inicialmente em um repositório central aqui:
+
+http://github.com/felipesanches/PatinhoFeio
+
+Estou agora subindo os PDFs também no Internet Archive em:
+https://archive.org/search.php?query=subject%3A%22patinho+feio%22
+
+Bem... acho que já tem MUITA informação nessa postagem. Divirtam-se digerindo tudo isso! Tenho muito mais pra falar, mas fica guardado para postagens futuras. Minha meta atual é terminar a instalação da fiação no painel-miniatura e portar o código de emulação do MAME para rodar em um Arduino controlando as luzes e a leitura das chaves. Mais uma vez, conforme eu for avançando nesse projeto irei postar mais mensagens aqui.
+
+Happy Hacking!
+Felipe "Juca" Sanches

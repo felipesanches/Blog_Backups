@@ -1,0 +1,62 @@
+Ano passado um amigo me deu de presente um conjunto de placas de um computador da Itautec e me disse que se tratava de um computador 286. O problema é que além de serem várias placas, todos os chips haviam sido removidos por um dono anterior supostamente com o intuito de vender ou reutilizar os chips genéricos e jogar fora o resto das placas. Porém, tanto os chips quanto as placas ficaram guardados em caixas por décadas. Foram então doados ao meu amigo e uns 10 anos depois foram repassados para mim.
+
+<img src="/uploads/default/original/1X/ed4c550b05382d2b96140dfc9cb54869e6d2376a.jpg" width="690" height="388">
+
+Para complicar, a caixa de CIs contém não apenas os chips que eram utilizados nesse computador, mas também chips provenientes de outros equipamentos. Ou seja, uma bela bagunça! Acredito que existe uma chance muito pequena de eu conseguir identificar qual chip vai em cada um dos soquetes das placas. Mas achei divertido ao menos tentar.
+
+<img src="/uploads/default/original/1X/305c92495a52ec6ce6db546eb2b749b54582747b.jpg" width="690" height="388">
+
+Vou começar a análise mostrando algumas fotos das placas individuais. Um fato curioso é que existe uma placa de conectores onde todas as outras placas se encaixam. Essa placa não contém nenhum componente eletrônico. Possui apenas os conectores:
+
+FRENTE:
+<img src="/uploads/default/original/1X/c3f4b3111b0d31bc60a1da9d8863c6c6262f9476.jpg" width="281" height="500">
+
+VERSO:
+<img src="/uploads/default/original/1X/21d7b1242244e74c96b86a139f627454673b8859.jpg" width="281" height="500">
+
+São 7 conectores, mas eu só recebi 4 placas. Espero que o conjunto de placas esteja completo e que alguns slots sejam apenas para expansão opcional...
+
+## Placa gráfica + Interface para impressora
+
+FRENTE:
+<img src="/uploads/default/original/1X/5486b12b1ec6f72568a6f5b85083f4595a47f478.jpg" width="690" height="388">
+
+VERSO:
+<img src="/uploads/default/original/1X/ba027e9e8c7cd16261d5291cf2157add1446b782.jpg" width="690" height="388">
+
+CONECTORES:
+<img src="/uploads/default/original/1X/26ef669e7ef1c219e36953df4acb568a55354d12.jpg" width="690" height="388">
+
+Das 4 placas, a mais simples de se desvendar foi a responsável pela saída de vídeo e interface com impressora. Em primeiro lugar, na própria placa temos um texto na camada de _silk_ que identifica a sua função: "VIDEO GRAFICO + INTERFACE PARA IMPRESSORA PARALELA".
+
+<img src="/uploads/default/original/1X/c3eb404b4169c319c28fe199aa9cd053bd2bc742.png" width="690" height="142">
+
+Mas mesmo sem essa identificação, poderíamos identificar ao menos a função gráfica por conta da presença de um chip Motorola MC6845P. Esse é um famoso CRTC (controlador de CRT - tubo de raios catódicos). A função desse chip é gerar um sinal de vídeo a partir de um buffer de texto e de uma ROM que forneça bitmaps correspondentes à representação gráfica de cada um dos caracteres.
+
+
+Chip controlador de vídeo (também conhecido como gerador de caracteres):
+<img src="/uploads/default/original/1X/71e98eab18e5515793ffb6600ca2ea383e49da38.jpg" width="375" height="499">
+
+Como havia um único soquete nessa placa (identificado como CI12), ele só poderia ser o local onde uma EPROM deveria ser instalada contendo os desenhos dos caracteres. Busquei entre os chips avulsos quais eram EPROMs de 24 pinos. Colei adesivos nas janelinhas de todas as EPROMs pra evitar que os dados se corrompam com a exposição à luz ambiente. (dá pra notar que usei pedacinhos de adesivos do Garoa Hacker Clube, que era a única coisa que eu tinha disponível no momento)
+
+Destaque da EPROM soquetada na posição CI12:
+<img src="/uploads/default/original/1X/02a91d38e0b3f5d71043ac8b39b70deb45c9d8be.jpg" width="375" height="500">
+
+Após fazer o dump dessa EPROM, escrevi um pequeno script em python para interpretar os dados e visualizar os desenhos dos caracteres. Pronto! Agora não apenas sabemos que achamos o chip correto como também conhecemos o aspecto visual das fontes bitmap deste 286 da Itautec :-D. Vejam o resultado abaixo:
+
+<img src="/uploads/default/original/1X/7e8c01d6512500b4d4f37207458bd58ffabfb80b.png" width="478" height="500">
+
+Por fim, vale mencionar que a placa contém uma etiqueta da Itautec com a data de 03/09/91 que deve corresponder à data do controle de qualidade ou de alguma manutenção:
+
+<img src="/uploads/default/original/1X/5f6350df231a56407a77797bcbb15fa4707e8495.jpg" width="666" height="500" style="transform: rotate(180deg);">
+
+Não consegui identificar nenhum CI dedicado ao interfaceamento com a impressora paralela por meio do conector DB25. Creio que toda a lógica digital para essa interface esteja implementada com as dezenas de chips TTL da família 74 que populam todo o resto da placa.
+
+Uma tarefa um pouco mais trabalhosa e que vou deixar pra depois seria mapear os pinos do conector lateral que essa placa possui para ser encaixada em um dos slots daquela primeira placa discutida anteriormente. Seria interessante saber qual é a distribuição de sinais de controles nesse conector para acesso ao CRTC e à porta de impressora.
+
+## Outras 3 placas
+
+Eu ainda não analisei em detalhe as outras 3 placas, mas vou fazer outras postagens aqui similares a essa assim que eu avançar na solução desse quebra-cabeças. Duvido que eu vá conseguir solucionar por completo, mas é de toda forma interessante tenter descobrir o quanto de informação ainda é acessível por meio das evidências que temos nos circuitos que ainda temos em mãos :slight_smile:
+
+Happy Hacking,
+Felipe "Juca" Sanches
