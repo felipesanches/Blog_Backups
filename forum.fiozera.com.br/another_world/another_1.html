@@ -1,0 +1,28 @@
+<img src="/uploads/default/original/1X/a12222113b459f1656ff37ffbd4a96206eec1179.png" width="320" height="256">
+
+Estou escrevendo um conjunto de ferramentas para análise da máquina virtual do jogo Another World, de Eric Chahi (1991). Já conegui gerar o disassembly do bytecode de todas as fases e agora consegui extrair todas as cenas poligonais exportando-as para arquivos SVG individuais. Ainda falta decodificar as cores. Portanto, por enquanto estou ainda apenas exportando wireframes. Estou pensando ainda como fazer pra inferir as cores corretas também.
+
+Esse aqui é um exemplo do que o meu script está gerando no momento:
+
+<img src="/uploads/default/original/1X/cfb24fde2eded787b984862d8aa8bb1d4239c3ff.png" width="690" height="373">
+
+E essa é a cena original do jogo, com as cores certas:
+<img src="/uploads/default/original/1X/9b09395b0fad4a22600e9a8952d6dba103e059c8.jpg" width="371" height="500">
+
+O código dessa ferramenta de análise do bytecode está sendo desenvolvido aqui:
+
+https://github.com/felipesanches/AnotherWorld_VMTools/
+
+Como o nome e a descrição do repositório indicam, eu pretendo também escrever um assembler, uma ferramenta para gerar as estruturas de dados de polígonos a partir de arquivos SVG, e também outras ferramentas que auxiliem no desenvolvimento de jogos para essa VM. Comecei escrevendo um disassembler por que assim terei uma forma de testar o assembler com um programa bem grande e complexo.
+
+Obviamente eu não posso distribuir a listagem completa pois isso constituiria uma infração de direitos autorais. Mas para fins educacionais e de ilustração eu posso sem problemas mostrar alguns pequenos trechos das listagens quando eu quiser discutir alguma característica do jogo ou técnicas usadas em seu programa.
+
+Seguem abaixo mais alguns exemplos de imagens vetoriais extraídas pelo meu script a partir dos arquivos originais do jogo, seguidas por screenshots de referência:
+
+<img src="/uploads/default/original/1X/7a93700e0bbe7eaaa870038926da57eeefa08053.png" width="690" height="373">
+
+<img src="/uploads/default/original/1X/4c5cf4fd541e5958ac6f7266d6a93ab0edb271ed.jpg" width="666" height="500">
+
+<img src="/uploads/default/original/1X/c7ed1b68397e6e24d1d728b283b074231c5020a2.png" width="690" height="373">
+
+<img src="/uploads/default/original/1X/339aa38548662c4c351a7a14ba08074bafd8c3a6.png" width="320" height="256">

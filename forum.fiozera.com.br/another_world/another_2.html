@@ -1,0 +1,15 @@
+Hoje eu investiguei a ROM de SNES do jogo Out of this World para tentar extrair dela o bytecode e outros resources (como paletas de cores, estruturas de dados de polígonos, etc) deste release do Another World.
+
+<img src="/uploads/default/original/1X/a14493404cf921d0019d32dbd12c8b0b1d0d8ba4.jpg" width="684" height="500">
+
+Eu sei que os resources são diferentes, por que consigo ver algumas diferenças sutis no gameplay. E alguns bugfixes. E também a censura que a Nintendo aplicou ao game (dentre várias modificações, uma das coisas que a Nintendo pediu foi que o sangue fosse pintado de verde para ser interpretado como "gosma de alien" e, supostamente, não afetar a classificação etária do jogo).
+
+<img src="/uploads/default/original/1X/1bf06d95aed629fdf79fbe81643c4785c555db26.jpg" width="330" height="235">
+
+Mas eu não consegui ainda achar os dados que estou procurando. Suponho que eles estejam comprimidos. Mas não tenho idéia de qual algorítmo de compressão foi usado. Para tentar descobrir, eu usei o debugger do MAME para inspecionar a memória RAM em runtime rodando o cartucho de SNES e tentando achar na RAM similaridades com o bytecode de MSDOS que eu já conheço. Mas por enquanto isso ainda não adiantou, pois não consegui achar.
+
+Aí resolvi usar watchpoints para interromper a execução do jogo e cair de volta no debugger assim que fosse lido um endereço especifico da ROM, contento uma string de texto "PRESS 'B' TO CONTINUE". Fiz isso por que sei que o desenho de strings de texto na tela é efeito colateral da execução da instrução **"drawString"**. Consegui achar esse ponto da ROM. E minha esperança era que eu poderia a partir daí ver de onde foi lido o opcode que levou à execução da instrução drawString. E então eu poderia ver onde na memória ficam armazenados trechos de bytecode descompressos. E depois eu poderia investigar quem foi que escreveu o bytecode alí e, com isso, ter algum insight sobre como está armazenado o bytecode na ROM.
+
+<img src="/uploads/default/original/1X/8384d5fe0b1505359719196d7eb8617003e2144d.png" width="256" height="224">
+
+Mas... apesar de ter achado a execução da instrução **drawString**, não consegui fazer esses "passos pra trás" justamente pela falta de uma feature de back-track log no debugger do MAME. Agora fico pensando se vale a pena eu implementar essa feature no MAME pra solucionar o meu problema, ou se é melhor eu forçar um pouco mais a cabeça pra achar algum outro jeito de achar os dados de bytecode.
