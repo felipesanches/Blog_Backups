@@ -1,0 +1,13 @@
+## Mapeando os sinais da correção na controladora de disquetes
+
+Vamos lá... Temos 3 fios (dois inclinados pra cima e um para baixo), vamos descobrir o que cada um deles interliga. Para auxiliar na compreensão dessa análise, seguem abaixo o diagrama e a foto do lado superior da placa. Notem que a placa da prológica não inclui as referências para os circuitos integrados (com a letra U seguida por algum número) na camada de silk como ocorre no diagrama da Tandy, apesar de incluir as referências dos demais compenentes como capacitores (letra C), resistores (letra R) ou pontos de prova (letras T e P, do inglês "test point"). 
+
+<img src="/uploads/default/original/1X/adc90f2c12a48d02489e04d12f95933b943579ff.jpg" width="690" height="408">
+
+<img src="/uploads/default/original/1X/5d9cc7d70045792d6408e05b5c97ecb389bcd29a.png" width="690" height="418">
+
+Por enquanto vou me preocupar apenas em mapear os pinos e pastilhas sem tentar entender o significado das ligações. Após ter essas anotações em mãos, poderei olhar os datasheets dos componentes e os esquemáricos do manual do TRS-80 parar fazer uma análise mais profunda.
+
+Os dois fios inclinados para cima interligam as pastilhas U13 (74LS02 - portas booleanas Não-OU de dois inputs cada) e U17 (WD2143PD, que vamos tentar estudar em mais detalhe mais pra frente). O fio da esquerda está ligando o pino 6 da pastilha U17 ao pino 2 da pastlha U13. Já o da direita interliga o pino 4 da U17 ao pino 1 da U13 e também ao ponto de prova TP8 e a alguns outros CIs vizinhos. O TP8 aparentemente é um pino de alimentação (VCC ou GND). Poderemos confirmar isso mais adiante. Já o fio que se inclina para baixo interliga o pino 3 da pastilha U13 ao pino 11 da pastilha U10 (74LS260 - portas booleanas Não-OU de cinco inputs cada).
+
+Agora é hora de pensar um pouco antes de tirar conclusões. Mas não antes de uma boa noite de sono :-D Até logo!

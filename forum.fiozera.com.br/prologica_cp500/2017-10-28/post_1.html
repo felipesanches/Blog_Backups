@@ -1,0 +1,37 @@
+<img src="/uploads/default/original/1X/21c70f43388af47e906da7a1dbbca241b8c0e724.jpg" width="505" height="364">
+
+Em novembro de 2015 o Fabio Hirano e a Amanda Yumi Ambriola trouxeram para o Garoa Hacker Clube um computador Prológica CP-500 completamente desmontado. Não apenas a eletrônica mas também a carcaça, os dois drives de disquetes de 5 1/4" e o tudo de raios catódicos (CRT). Aparentemente todas as peças não-opcionais estão inclusas no conjunto de peças que recebemos, mas nitidamente faltam alguns cabos.
+
+Na época nós promovemos um evento no Garoa para fazer a inspeção geral das peças e tentar entender se seria possível remontá-lo ou talvez ao menos inspecionar o circuito para propósitos de emulação no MAME. Segue abaixo o anúncio bem-humorado que fizemos naquela ocasião:
+
+<img src="/uploads/default/original/1X/10e1c8d78772a2e4053c0233422dbac68f6d5eb8.png" width="687" height="500">
+
+O anúncio ainda está disponível também no site do Garoa, [nesta página](https://garoa.net.br/wiki/CP500) do wiki.
+
+Nos 2 anos que se passaram, entretanto, o computador ficou encostado no depósito do Garoa e só agora tomei a iniciativa de olhar de novo pra ele. Para poder estudá-lo com mais calma, trouxe as peças todas para a minha casa. Fui informado pelo Fabio e pela Yumi que o computador poderia ser meu, caso eu conseguisse consertá-lo :slight_smile:
+
+<img src="/uploads/default/original/1X/214988e209d64cc8838d907969312889e16049d8.png" width="580" height="500">
+
+Vale ressaltar que o CP-500 é um clone de fabricação nacional (Prológica) do computador TRS-80 Model III (Tandy / Radio Shack). Como inicialmente eu não acreditava que eu poderia encontrar documentação da versão nacional, fui diretamente buscar algum manual do original. Achei 3 documentos interessantes, dentro os quais destaco o **Model III Technical Reference Manual de 1981**:
+
+<img src="/uploads/default/original/1X/bf60a5628837ff96de984cd725d3d2bf8eb2f568.png" width="383" height="500">
+
+Logo no início do documento há um diagrama geral dos principais elementos que compõem o sistema, dos quais tenho todos, exceto a placa RS-232 (de comunicação serial) e possuo apenas uma placa de fonte de alimentação.
+
+<img src="/uploads/default/original/1X/93b7147463ba6f1747bf8505380bd20f0cb6a82d.jpg" width="690" height="420">
+
+Comparando o layout das placas com os diagramas contidos no manual do equipamento original, eu pude perceber que apenas a interface controladora de disquetes foi diretamente copiada. As demais placas possuem diferenças significativas de design. Nota-se nas imagens abaixo como todas as trilhas da interface de disquetes possuem exatamente o mesmo roteamento de sinal no layout da PCB e a única diferença são os textos da TANDY trocados pelos da PROLÓGICA...
+
+<img src="/uploads/default/original/1X/23cbd075464bb6db9515d37437da8173f87dadad.jpg" width="690" height="399">
+
+<img src="/uploads/default/original/1X/890f44d36e3f9c23fb80b6a99983b1d89f99203d.png" width="689" height="412">
+
+Me chamou a atenção também os 3 fios soldados nessa placa. Parece um erro de projeto que só foi percebido depois da produção das PCBs. Mas se o diagrama do TRS-80 também não mostra essas ligações, então significa que isso foi um erro de projeto originalmente cometido pelos engenheiros da Tandy ?
+
+Essa é uma questão que demandará algumas horinhas de estudo nos esquemáticos para identificar quais são esses sinais e tentar entender quais eram suas funções no circuito. Caso eu descubra mais alguma coisa, postarei minhas conclusões por aqui.
+
+Pretendo em breve continuar essa thread com detalhes sobre a placa-mãe (onde fica o processador Z80 e a circuitaria principal do computador) e a placa da fonte de alimentação.
+
+Happy Hacking,
+Felipe "Juca" Sanches
+
