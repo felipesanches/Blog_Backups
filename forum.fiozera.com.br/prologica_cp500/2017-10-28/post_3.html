@@ -1,0 +1,38 @@
+Recapitulando...
+
+* Fio A: U17-6 <=> U13-2
+* Fio B: U17-4 <=> U13-1 / TP8
+* Fio C: U13-3 <=> U10-11
+
+Seguem abaixo as pinagens das pastilhas em uso e os nomes dos sinais interligados por cada fio, mas ainda sem interpretar seu significado. Estamos apenas nos familiarizando cada vez mais com o problema.
+
+## U10: 74LS260 - Portas NOR
+
+<img src="/uploads/default/original/1X/ed76c7a1114d5eee7b0ee0d4febf74cd3a361947.jpg" width="600" height="374">
+
+## U13: WD2134 - Western Digital, Four Phase Clock Generator
+
+<img src="/uploads/default/original/1X/8740ece32ef8034cb8a734a10a32e794bc36e1a2.png" width="679" height="500">
+
+## U17: 74LS02 - Portas NAND
+
+<img src="/uploads/default/original/1X/3a87e45770aeadb4524230ab7b513ad1db5094c7.png" width="380" height="240">
+
+## Fio A
+* U17-6: Entrada de uma porta NAND 
+* U13-2: Saída Φ4 (fase número 4)
+
+Aqui seria bom verificar quais são os outros sinais da porta NAND em uso.
+
+## Fio B
+* U17-4: Saída da mesma porta NAND à qual está ligado o fio A.
+* U13-1: Saída /Φ4 (fase número 4 invertida)
+* TP8: Ponto de prova número 8
+
+Como ambos os pinos dos chips achima são sinais de saída, presumo que deve haver mais algum outro chip ligado a esse ponto.
+
+## Fio C
+* U13-3: Saída /Φ3 (fase número 3 invertida)
+* U10-11: Entrada de uma porta NOR de 5 inputs
+
+Neste caso, vale a pena verificar quais são as outras 4 entradas dessa porta NOR e para que é usada a sua saída.
