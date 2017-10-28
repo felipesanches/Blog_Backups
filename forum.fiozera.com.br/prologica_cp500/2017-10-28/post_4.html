@@ -1,0 +1,20 @@
+Eu ainda não entendi por completo, mas me parece que o problema que esses fios corrigem é original do TRS80 Model 3 da Tandy. O que embasa minha suposição é a observação do trecho do esquemático no manual da Tandy que contém o desenho de todas essas interconexões:
+
+<img src="/uploads/default/original/1X/1166d3b5a6f480dcce5481049601fd989fa12c25.png" width="628" height="500">
+
+Dá pra ver nessa imagem o ponto de prova TP8 ligado na saída duma NAND (pino identificado com o número 4) cujas entradas são um sinal de RESET e, no pino 6, o sinal de fase-4 invertida proveniente da pastilha U13.
+
+## Floppy Write Pre-Compensation
+
+Mas e aí? O que fazem esses sinais ?
+No datasheet do chip WD2143 é ilustrado um uso típico que é muito similar ao que vimos acima (mas não idéntico pois não possui a lógica com um sinal de RESET daquela porta NAND):
+
+<img src="/uploads/default/original/1X/e1322b7bb9df358c55d5b1f44ca0a8ecba3074fa.png" width="690" height="493">
+
+O termo "Write PreComp" refere-se a uma técnica utilizada em placas controladoras de disquetes (e também de discos rígidos) em que é aplicado um atraso na sinalização de escrita do disco para compensar as características não-lineares de mídias de armazenamento magnéticas. Há [um artigo mais detalhado](https://en.wikipedia.org/wiki/Write_precompensation) sobre essa técnica na Wikipedia, que merece uma boa leitura.
+
+Além disso, o próprio [manual técnico do TRS80](https://amaus.net/static/S100/tandy/systems/model%20III/Tandy%20Model%20III%20Technical%20Reference%20Manual.pdf) é muito detalhado e contém uma seção que explica por completo o circuito da interface controladora de disco.
+
+<img src="/uploads/default/original/1X/1ea611c6383993adc37bd7bd12f88f98dee05831.png" width="595" height="499">
+
+Daria pra continuar estudando em mais detalhes o circuito da controladora de floppy, mas acho que por enquanto estou satisfeito com esse primeiro contato. Posso voltar depois para me aprofundar mais. Acho que agora vou dar uma olhadinha nas outras placas do CP-500 pra ver o que mais temos em mãos.
