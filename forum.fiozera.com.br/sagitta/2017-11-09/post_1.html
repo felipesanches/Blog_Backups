@@ -1,0 +1,60 @@
+Por conta da minha postagem recente aqui sobre o computador [CP-500 da Prológica](https://forum.fiozera.com.br/t/estudando-os-circuitos-do-prologica-cp-500/150), fui convidado pela professora Tereza Cristina Melo de Brito Carvalho a visitar o Acervo Histórico de Tecnologia de Informação que foi montado recentemente na Poli-USP.
+
+<img src="/uploads/default/original/1X/9f203eee238100e9d5ddac37d6fd63ec24fe4ace.jpg" width="666" height="500">
+
+Na minha primeira visita, além de conhecer a exposição em si, que tem vários itens bem interessantes, tive a oportunidade de também ver os materiais do acervo não exposto. E alí o que mais me chamou a atenção foi um par de terminais seriais projetados e fabricados pela Scopus no final da década de 70.
+
+<img src="/uploads/default/original/1X/3334ff4c50644589d2f0499e6ce49971ab9f0460.jpg" width="666" height="500">
+
+Esse terminal provavelmente foi projetado pelo professor Edson Fregni, que foi também o projetista da unidade de controle da CPU do computador [Patinho Feio](https://forum.fiozera.com.br/t/resgate-historico-do-computador-patinho-feio-usp-1971/58).
+
+Assim que eu vi o terminal eu de imediato pedi autorização pra abri-lo e inspecionar seus circuitos. E o procedimento foi mais fácil do que eu imaginava... 😉
+
+<img src="/uploads/default/original/1X/30b35e3495d9af22bed06cdfc8d79f125eb064f9.jpg" width="375" height="500">
+
+A parte do equipamento onde o CRT fica instalado abre para trás com uma dobradiça. E o gabinete não estava aparafusado, então qualquer pessoa que empurre a tela pra cima consegue abrir o terminal instantaneamente para acessar a sua placa eletrônica.
+
+Naturalmente eu extraí um dump das quatro EPROMs do terminal de modelo Sagitta 180. Eu tentei também fazer o dump da ROM única do outro terminal, que é de um modelo anterior, Sagitta 150, mas o chip estava com algum defeito e não consegui de forma alguma efetuar uma cópia consistente dos dados.
+
+<img src="/uploads/default/original/1X/bf59bfa8760c3b8ad144b7e74733eae6b9123acd.jpg" width="375" height="500">
+
+Ao longo dos dias seguintes, escrevi um emulador para esses terminais da Scopus no MAME. O processo de desenvolvimento desse driver de emulação contou com a ajuda do Werner Moeke, que conheci 2 anos atrás no [Garoa Hacker Clube](https://garoa.net.br/) e que, recentemente, entrou em contato por conta do interesse pelo resgate histórico de computadores antigos.
+
+Uma surpresa foi notar ao inspecionar com um editor hexadecimal que a primeira ROM (aquela que tem a etiqueta escrito "Sagitta 180") possui strings indicando o modelo 150! A segunda e a terceira ROMs, identificadas com os números 1 e 2 (já que supostamente a primeira é a número zero), nitidamente contém todo o resto do código. Posso afirmar isso por que a terceira ROM termina com uma enorme região cheia de zeros. Ou seja, o programa era maior que 2 ROMs, mas menor que 3 ROMs cheias.
+
+Mas e a quarta ROM? Bem... aí é que está um mistério, uma coisa curiosa. Eu esperaria que a quarta ROM fosse identificada pelo número 3, formando um conjunto de ROMs numeradas como 0, 1, 2 e 3. Mas não! A quarta ROM tem o número zero escrito em sua etiqueta! E pra confundir ainda mais a cabeça, é relativamente similar (perante inspeção visual do conteúdo) à primeira ROM, mas nesse caso contém strings a identificando como modelo "Sagitta 180".
+
+Então o que acho que acontece aqui é que os projetistas devem ter desenhado a placa contendo um mecanismo de chaveamento de ROMs e talvez tenham fabricado os terminais do modelo 180 simplesmente adicionando 3 ROMs extras, uma das quais deve substituir a primeira, do modelo 150. Uma vantagem de fazer isso talvez seja uma opção de retro-compatibilidade com o modelo anterior.
+
+Eu ainda não sei os detalhes de funcionamento do suposto mecanismo de chaveamento de ROMs. Então simplesmente carreguei o emulador com a ROM do modelo 150 para conseguir essa tela de boot:
+
+<img src="/uploads/default/original/1X/f31faed6a49d9e41b7ff16aebd695276f5b914ac.jpg" width="663" height="500">
+
+E depois carreguei as ROMs do modelo 180 para conseguir essa outra tela inicial:
+
+<img src="/uploads/default/original/1X/aea1a91b82ce87ac01838e76b5e8c5a1961fc970.jpg" width="663" height="500">
+
+O código de emulação do terminal está aguardando review e merge no github do MAME:
+
+https://github.com/mamedev/mame/pull/2776
+
+Consta "non-working" na descrição por que ainda falta emular o teclado desses terminais. Mas grande parte do resto já funciona, inclusive a emulação da comunicação serial.
+
+<img src="/uploads/default/original/1X/41884365d60c3a68d03ec24a38156c0e0707a6ec.jpg" width="679" height="241">
+
+<img src="/uploads/default/original/1X/7a02e7ac169341f87ffe6326004e67046ab3e191.jpg" width="679" height="255">
+
+A emulação do teclado até então tem se mostrado ser a parte mais complicada desse desafio. Ontem eu estive mais uma vez na USP e volte a inspecionar essa parte do circuito. Consegui levantar empiricamente uma parte do esquemático eletrônico dessa região da placa, mas ainda não tenho clareza a respeito do funcionamento exato do teclado e como a CPU faz a leitura das teclas pressionadas. Está claro que, como de praxe, trata-se de uma técnica de multiplexação da matriz de teclas. Mas ainda falta descobrir em quais portas do espaço de I/O são feitos os acessos e qual a lógica especifica envolvida na leitura.
+
+<img src="/uploads/default/original/1X/52c35a21c793d5ce044a5d5d3b3515946bff502f.jpg" width="666" height="500">
+
+Além de desvendar esses mecanismos de chaveamento de ROMs e de leitura do teclado para completar a implementação do emulador, uma outra coisa interessante a se fazer é tentar ligar de fato os terminais de verdade. É possível hoje em dia conectar um desses terminais a um computador por meio de cabo USB-Serial (como os que a gente usava pra programar Arduinos antigos).
+
+Um cabo USB junto a um adaptador RS232 da FTDI como esse, por exemplo, também serve:
+
+<img src="/uploads/default/original/1X/54c3adc542dd580f19be8b9f4f28406e5ce5f270.jpg" width="666" height="500">
+
+Em teoria é possível, por exemplo, configurar por meio do arquivo `/etc/inittab` a abertura de um console de login com uma sessão do bash do meu laptop num desses terminais da Scopus. A maior questão entretanto é que antes de ligar é bom verificar se os capacitores estão bons ou se precisam ser trocados, pois provavelmente já devem todos ter ressecados ao longo dos últimos 30 e tantos anos. A última revisão técnica, segundo uma etiqueta que achei dentro de u mdeles foi em 1982 e dizia "Fonte OK" / "Placa Digital OK"... ;-)
+
+Happy Hacking!
+Felipe "Juca" Sanches
